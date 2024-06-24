@@ -45,8 +45,9 @@
    padding: 5px;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 500px) {
    .back {
+      background-image: var(--image-mobile);
       border-radius: 20px;
    }   
    

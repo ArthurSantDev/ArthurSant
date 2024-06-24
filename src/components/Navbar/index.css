@@ -54,7 +54,7 @@ nav {
    background-color: aquamarine;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 500px) {
    nav {
       display: flex;
       align-items: center;

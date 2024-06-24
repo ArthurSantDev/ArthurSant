@@ -207,7 +207,7 @@
 
 /* /////////////////////////////////////////////////////////////////////////// */
 
-@media (max-width: 430px) {
+@media (max-width: 500px) {
 
    #init-container {
       display: flex;

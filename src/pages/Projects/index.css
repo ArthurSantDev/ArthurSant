@@ -173,7 +173,7 @@ button {
 
 
 
-@media (max-width: 430px) {
+@media (max-width: 500px) {
    .project:hover {
       border-color: var(--hover);
       transform: translateY(-3px);
