@@ -87,10 +87,9 @@ body {
     padding: 0;
   }
 }
-
-
-
-
+h1, h2, h3, p {
+  user-select: none;
+}
 
 .container {
   max-width: 1200px;
@@ -103,7 +102,6 @@ body {
   }
 }
 
-
 .center {
   display: flex;
   align-items: center;
@@ -115,7 +113,6 @@ body {
     width: 100%;
   }
 }
-
 
 .Title {
   padding: 90px 0 0;
