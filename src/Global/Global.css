@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+  color-scheme: light dark;
+
+  color: rgba(255, 255, 255, 0.87);
+  --color: #FFF;
+  background: linear-gradient(to right, #01000f, #01000f, #01000f, #000c1f);
+  --background: #01000f;
+  --image: url('/public/patternDark.png');
+
+  --project: linear-gradient(to top, #000b1f, #001130);
+
+  --color-primary: #2088ff;
+  --color-secundary: #09b1ff;
+  --color-primary-dark: #000b1f;
+  --color-secundary-dark: #47d4ff3d;
+  --hover: #20adff;
+  --hover-dark: #09c6ff;
+  --button: #47d4ff7a;
+
+  --one: #7fd6ff;
+  --two: #f325f3;
+  --three: #c9eb0c;
+  --four: #4be04b;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    --color: #213547;
+    background: linear-gradient(to right, #f8f8f8, #f8f8f8, #f8f8f8, #f1f1f1);
+    --background: #f8f8f8;
+    --image: url('/public/patternLight.png');
+
+    --project:  linear-gradient(to top,  #f0f0f0, #e6e6e6);
+    
+    --color-primary: #646cff;
+    --color-secundary: #213547;
+    --color-primary-dark: #f0f0f0;
+    --color-secundary-dark: #b3b7ff;
+    --hover: #646cff;
+    --hover-dark: #1b27ff;
+    --button: #9ea3ff;
+
+    --one: #008cff;
+    --two: #ac00ac;
+    --three: #cfb313;
+    --four: #11c911;
+    
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 450px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+
+
+
+.container {
+  max-width: 1200px;
+  min-height: calc(100vh - 40px);
+  background-repeat: no-repeat;
+}
+@media (max-width: 450px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1150px;
+}
+@media (max-width:430px){
+  .center {
+    width: 100%;
+  }
+}
+
+
+.Title {
+  padding: 90px 0 0;
+  font-size: 36px;
+  color: var(--color-primary);
+}
+@media (max-width: 450px) {
+  .Title {
+    font-size: 34px;
+  }
+}
+
+.mt {
+  margin: 100px 0 0;
+}
+
+.border {
+  border: 2px solid var(--color-primary);
+}
+
+.Scroll {
+  color: white;
+}
+
+.shadow {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.09);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+ a {
+   font-weight: 500;
+   color: var(--color-primary);
+   text-decoration: inherit;
+   cursor: pointer;
+ }
+ a:hover {
+   color: var(--hover);
+ }
+
+ 
