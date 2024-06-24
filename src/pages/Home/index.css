@@ -224,7 +224,7 @@
   .profile {
       display: flex;
       align-items: start;
-      margin: 130px 0 0 0;
+      margin: 110px 0 0 0;
   }
 
   .animated-text {
@@ -306,8 +306,8 @@
    }
 
    .skill svg {
-      width: 26px;
-      height: 26px;
+      width: 30px;
+      height: 30px;
       margin-top: 0px;
    }
 
@@ -319,7 +319,7 @@
    }
 
    .skill p {
-      font-size: 14px;
+      font-size: 13px;
       margin: 0px 0 4px;
    }
 
@@ -330,6 +330,6 @@
    .link a {
       margin: 0;
       text-decoration: underline;
-      font-size: 12px;
+      font-size: 8px;
    }
 }

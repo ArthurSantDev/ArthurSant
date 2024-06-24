@@ -43,11 +43,12 @@
 
     --project:  linear-gradient(to top,  #f0f0f0, #e6e6e6);
     
-    --color-primary: #646cff;
+    --color-primary: #878dff;
     --color-secundary: #213547;
     --color-primary-dark: #f0f0f0;
     --color-secundary-dark: #b3b7ff;
-    --hover: #646cff;
+    --hover: #878dff;
+    /* --hover: #646cff; */
     --hover-dark: #1b27ff;
     --button: #9ea3ff;
 
