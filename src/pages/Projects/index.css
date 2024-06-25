@@ -245,7 +245,7 @@
    .project-link a {
       width: 150px;
       height: 40px;
-      gap: 5px;
+      gap: 0px;
       font-size: 13px;
       font-weight: 500;
       border-color: var(--mobile-button);
