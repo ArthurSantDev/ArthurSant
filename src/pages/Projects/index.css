@@ -180,6 +180,7 @@ button {
    .project:active {
       border-color: var(--mobile-border-900);
       transform: translateY(0px);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
    }
 
    .project-link a:active {
@@ -187,6 +188,7 @@ button {
       border: 1px solid var(--color-full);
       background-color: var(--hover-200);
       transform: translateY(-2px);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
    }
    .cant-btn a:active {
       color: #cf3374;

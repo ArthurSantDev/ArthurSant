@@ -212,20 +212,20 @@
 /* /////////////////////////////////////////////////////////////////////////// */
 
 @media (max-width: 500px) {
-   .skill:active {
-      border: 1.5px solid var(--color-full);
-      transform: translateY(-5px);
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-   }
-   
    .social:active {
       border: 1.5px solid var(--color-full);
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
    }
-   
+
    .icon:active {
       color: var(--color-full);
       transform: translateY(-3px);
+   }
+
+   .skill:active {
+      border: 1.5px solid var(--color-full);
+      transform: translateY(-5px);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
    }
    
    .skill a:hover {
