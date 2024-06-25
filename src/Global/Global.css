@@ -24,9 +24,9 @@
   --project: linear-gradient(to top, #000b1f, #001e41);
 
   --mobile-color-full: #20a6ff;
-  --mobile-border: #20a6ff;
+  --mobile-border: #20a6ffdc;
   --mobile-border-900: #377dff48;
-  --mobile-button: #20a6ff;
+  --mobile-button: #20a6ffdc;
 
   --one: #7fd6ff;
   --two: #f325f3;
@@ -58,7 +58,7 @@
     --hover-100: #1b27ff;
     --hover-200: #b4b8ff;
     
-    --project:  linear-gradient(to top,  #f0f0f0, #e6e6e6);
+    --project:  linear-gradient(to top,  #f8f8f8, #e2e2e2);
 
     --mobile-color-full: #7e85ff;
     --mobile-border: #cacbff;

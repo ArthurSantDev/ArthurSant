@@ -271,6 +271,7 @@ button {
       font-weight: 500;
       border-radius: 50px;
       border-color: var(--mobile-button);
+      background-color: var(--back);
       color: var(--mobile-button);
       transition: 0.07s ease-in;
    }
