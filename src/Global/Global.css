@@ -14,15 +14,19 @@
   --image-mobile: url('/public/patternDarkMobile.png');
 
   --color-full: #20a6ff;
-  --border: #47d4ff3d;
+  --border: #377dff48;
   --back: #000b1f;
   --button: #47d4ff7a;
-  --hover-100: #09c6ff;
 
-  --project: linear-gradient(to top, #000b1f, #001130);
+  --hover-100: #2eceff;
+  --hover-200:  #005085;
+
+  --project: linear-gradient(to top, #000b1f, #001e41);
 
   --mobile-color-full: #20a6ff;
-  --mobile-border: #47d4ff3d;
+  --mobile-border: #20a6ff;
+  --mobile-border-900: #377dff48;
+  --mobile-button: #20a6ff;
 
   --one: #7fd6ff;
   --two: #f325f3;
@@ -50,13 +54,16 @@
     --color-full: #646cff;
     --border: #b3b7ff;
     --back: #f0f0f0;
-    --button: #9ea3ff;
+    --button: #969cff;
     --hover-100: #1b27ff;
+    --hover-200: #b4b8ff;
     
     --project:  linear-gradient(to top,  #f0f0f0, #e6e6e6);
 
     --mobile-color-full: #7e85ff;
     --mobile-border: #cacbff;
+    --mobile-border-900: #cacbff;
+    --mobile-button: #cacbff;
 
     --one: #008cff;
     --two: #ac00ac;

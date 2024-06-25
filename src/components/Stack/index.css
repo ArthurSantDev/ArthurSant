@@ -59,7 +59,7 @@
    border: 1.5px solid var(--border);
    background-color: var(--back);
    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-   transition: 0.2s;
+   transition: 0.2s ease-in;
 }
 .stack-box h1 {
    font-size: 16px;
@@ -114,8 +114,7 @@
       width: 140px;
       height: 120px;
       padding: 5px;
-      border-color: var(--mobile-border);
-      transition: 0.05;
+      border-color: var(--mobile-border-900);
    }
 
    .stack-box h1 {
