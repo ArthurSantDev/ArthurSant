@@ -123,7 +123,7 @@
    text-decoration: none;
    border-radius: 20px;
    border: 1px solid var(--button);
-   background-color: var(--back);
+   background-color: var(--button-back);
    color: var(--button);
    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.09);
    transition: 0.2s;
@@ -276,7 +276,7 @@ button {
       font-weight: 500;
       border-radius: 50px;
       border-color: var(--mobile-border-900);
-      background-color: var(--back);
+      background-color: var(--button-back);
       color: var(--mobile-border-900);
       transition: 0.07s;
    }

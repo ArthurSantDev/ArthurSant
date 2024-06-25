@@ -17,6 +17,7 @@
   --border: #377dff48;
   --back: #000b1f;
   --button: #47d4ff7a;
+  --button-back: #000b1f;
 
   --hover-100: #2eceff;
   --hover-200:  #005085;
@@ -55,6 +56,8 @@
     --border: #b3b7ff;
     --back: #f0f0f0;
     --button: #969cff;
+    --button-back: #ffffff;
+    
     --hover-100: #1b27ff;
     --hover-200: #b4b8ff;
     
