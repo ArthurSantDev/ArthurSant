@@ -86,6 +86,7 @@
    .stack-box:active {
       color: var(--color-full);
       border-color: var(--color-full);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
       transform: translateY(-5px);
    }
 

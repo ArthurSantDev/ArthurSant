@@ -10,7 +10,7 @@ const index = () => {
     <div id='Projects' className='container'>
         <section className="projects">
             <h1 className='Title'>
-                My featured projects
+                My best projects
             </h1> 
 
             <div class="project  shadow">
@@ -126,8 +126,8 @@ const index = () => {
         </section>
         
         <Link to='projects'>
-            <button className="shadow">
-                SEE MORE
+            <button className="routes-button shadow">
+                SEE ALL PROJECTS
             </button>
         </Link>
     </div>

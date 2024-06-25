@@ -16,8 +16,9 @@
   --color-full: #20a6ff;
   --border: #377dff48;
   --back: #000b1f;
+  
   --button: #47d4ff7a;
-  --button-back: #000b1f;
+  --button-back: #00091a;
 
   --hover-100: #2eceff;
   --hover-200:  #005085;
@@ -27,7 +28,7 @@
   --mobile-color-full: #20a6ff;
   --mobile-border: #20a6ffdc;
   --mobile-border-900: #377dff48;
-  --mobile-button: #20a6ffdc;
+  --mobile-button: #20a6ffce;
 
   --one: #7fd6ff;
   --two: #f325f3;
@@ -55,18 +56,19 @@
     --color-full: #646cff;
     --border: #b3b7ff;
     --back: #f0f0f0;
+
     --button: #969cff;
     --button-back: #ffffff;
     
     --hover-100: #1b27ff;
-    --hover-200: #b4b8ff;
+    --hover-200: #b9bdff;
     
     --project:  linear-gradient(to top,  #f8f8f8, #e2e2e2);
 
     --mobile-color-full: #7e85ff;
     --mobile-border: #cacbff;
     --mobile-border-900: #969bff6e;
-    --mobile-button: #cacbff;
+    --mobile-button: #8284ff;
 
     --one: #008cff;
     --two: #ac00ac;
@@ -122,8 +124,9 @@ h1, h2, h3, p, a, svg, img {
 }
 
 .Title {
-  padding: 90px 0 0;
+  padding: 100px 0 0;
   font-size: 36px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   color: var(--color-full);
 }
 @media (max-width: 500px) {
@@ -146,7 +149,20 @@ h1, h2, h3, p, a, svg, img {
 }
 
 .shadow {
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.09);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.routes-button {
+  width: 200px;
+  height: 40px;
+  gap: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 50px;
+  border: 1px solid var(--mobile-button);
+  background-color: var(--button-back);
+  color: var(--mobile-button);
+  transition: 0.2s;
 }
 
 ::-webkit-scrollbar {
