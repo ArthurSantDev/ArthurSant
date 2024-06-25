@@ -226,6 +226,11 @@
       color: var(--hover-dark);
    }
 
+   #Home {
+      width: 100%;
+      height: 900px;
+   }
+
    #Home-container {
       display: flex;
       align-items: center;
@@ -235,8 +240,8 @@
       margin: 0px 0px 0px 0px;
       padding: 0px 0px 0px 0px;
       width: 100%;
-      height: 890px;
-      gap: 0px;
+      height: 900px;
+      gap: 20px;
   }
 
   .profile-section {
@@ -247,7 +252,7 @@
   }
 
   .profile {
-      margin-top: 90px;
+      margin-top: 100px;
   }
 
   .animated-text {
@@ -309,7 +314,8 @@
       display: flex;
       width: 100%;
       height: 425px;
-      margin: 0px 0px 40px 0px;
+      padding: 0px 0px 50px 0px;
+      margin: 0;
    }
 
    .skills {
