@@ -211,20 +211,20 @@
    .skill:active {
       border: 1.5px solid var(--hover);
       transform: translateY(-5px);
-      }
+   }
    
-      .social:active {
-         border: 1.5px solid var(--hover);
-      }
+   .social:active {
+      border: 1.5px solid var(--hover);
+   }
    
-      .icon:active {
-         color: var(--hover);
-         transform: translateY(-3px);
-      }
+   .icon:active {
+      color: var(--hover);
+      transform: translateY(-3px);
+   }
    
-      .skill a:hover {
-         color: var(--hover-dark);
-      }
+   .skill a:hover {
+      color: var(--hover-dark);
+   }
 
    #init-container {
       display: flex;
@@ -236,6 +236,8 @@
       padding: 0px 0px 0px 0px;
       width: 100%;
       height: 100%;
+      min-height: 930px;
+      gap: 20px;
   }
 
   .profile-section {
@@ -308,7 +310,7 @@
       display: flex;
       width: 100%;
       height: 100%;
-      margin: 30px 0px 30px 0px;
+      margin: 0px 0px 30px 0px;
    }
 
    .skills {

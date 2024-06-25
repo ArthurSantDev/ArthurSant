@@ -13,7 +13,7 @@ import Stacks from '../../components/Stacks'
 const index = () => {
   return (
     <div id='Home'>
-      <section id="init-container">
+      <div id="init-container">
         <div>
           <div class="profile-section">
             <div className='profile'>
@@ -83,7 +83,7 @@ const index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   )
 }
