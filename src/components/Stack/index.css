@@ -115,6 +115,7 @@
       height: 120px;
       padding: 5px;
       border-color: var(--mobile-border-900);
+      transition: 0.07s ease-in;
    }
 
    .stack-box h1 {

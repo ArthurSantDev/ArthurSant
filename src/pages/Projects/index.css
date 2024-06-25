@@ -181,6 +181,7 @@ button {
    .project-link a:active {
       color: var(--color-full);
       border: 1px solid var(--color-full);
+      background-color: var(--hover-200);
       transform: translateY(-2px);
    }
    .cant-btn a:active {
@@ -271,7 +272,7 @@ button {
       border-radius: 50px;
       border-color: var(--mobile-button);
       color: var(--mobile-button);
-      transition: 0.15s ease-in;
+      transition: 0.07s ease-in;
    }
    
    .project-link p {
