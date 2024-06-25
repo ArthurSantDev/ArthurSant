@@ -34,7 +34,7 @@
    gap: 0px;
 }
 
-.profile {
+.profile-section {
    display: flex;
    align-items: left;
    flex-direction: column;
@@ -221,10 +221,15 @@
       height: 100%;
   }
 
-  .profile {
+  .profile-section {
       display: flex;
       align-items: start;
-      margin: 130px 0 0 0;
+      height: 390px;
+      margin: 0;
+  }
+
+  .profile {
+      margin-top: 130px;
   }
 
   .animated-text {
@@ -266,7 +271,7 @@
       content: '';
       position: absolute;
       width: calc(100% + 5px);
-      height: 105%;
+      height: 110%;
       right: -10px;
       background: var(--background); /* Precisa ser da cor do fundo */
   }
@@ -330,6 +335,6 @@
    .link a {
       margin: 0;
       text-decoration: underline;
-      font-size: 8px;
+      font-size: 11px;
    }
 }

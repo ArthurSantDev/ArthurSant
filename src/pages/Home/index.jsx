@@ -15,30 +15,32 @@ const index = () => {
     <div id='Home'>
       <section id="init-container">
         <div>
-          <div class="profile">
-            <div class="animated-text">
-                <h3>Olá, meu nome é</h3>
-                <h1>Arthur Sant</h1>
-                <h2>
-                    e eu sou 
-                    <span class="typing"></span>
-                </h2>
+          <div class="profile-section">
+            <div className='profile'>
+              <div class="animated-text">
+                  <h3>Olá, meu nome é</h3>
+                  <h1>Arthur Sant</h1>
+                  <h2>
+                      e eu sou 
+                      <span class="typing"></span>
+                  </h2>
+              </div>
+              <div class="social shadow">
+                  <a href="https://www.linkedin.com/in/devarthursant" target="_blank">
+                  <AiFillLinkedin className='icon'/>
+                  </a>
+                  <a href="https://github.com/ArthurSantDev" target="_blank">
+                    <AiFillGithub className='icon'/>
+                  </a>
+                  <a href="https://wa.me/5524988638508" target="_blank">
+                    <FaWhatsapp className='icon'/>
+                  </a>
+                  <a href="mailto:DevArthurSant@gmail.com" target="_blank">
+                    <MdEmail className='icon'/>
+                  </a>
+              </div>
+              <Stacks />
             </div>
-            <div class="social shadow">
-                <a href="https://www.linkedin.com/in/devarthursant" target="_blank">
-                <AiFillLinkedin className='icon'/>
-                </a>
-                <a href="https://github.com/ArthurSantDev" target="_blank">
-                  <AiFillGithub className='icon'/>
-                </a>
-                <a href="https://wa.me/5524988638508" target="_blank">
-                  <FaWhatsapp className='icon'/>
-                </a>
-                <a href="mailto:DevArthurSant@gmail.com" target="_blank">
-                  <MdEmail className='icon'/>
-                </a>
-            </div>
-            <Stacks />
           </div>
         </div>
 

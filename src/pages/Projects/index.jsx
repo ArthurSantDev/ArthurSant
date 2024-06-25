@@ -127,7 +127,7 @@ const index = () => {
         
         <Link to='projects'>
             <button className="shadow">
-                SEE ALL PROJECTS
+                SEE MORE
             </button>
         </Link>
     </div>
