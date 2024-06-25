@@ -13,7 +13,7 @@ import Stacks from '../../components/Stacks'
 const index = () => {
   return (
     <div id='Home'>
-      <div id="init-container">
+      <div id="Home-container">
         <div>
           <div class="profile-section">
             <div className='profile'>
