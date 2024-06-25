@@ -107,7 +107,7 @@ nav {
       border-radius: 15px;
       border: 1px solid var(--color-full);
       background-color: var(--background);
-      transition: 0.5s;
+      transition: 0.4s;
    }
 
    .nav_links.open a {
