@@ -49,7 +49,7 @@
    .back {
       background-image: var(--image-mobile);
       border-radius: 20px;
-   }   
+   }
    
    .about_grid {
       display: grid;
@@ -64,7 +64,8 @@
    }
 
    #About {
-      margin-top: 50px;
+      margin-top: 0px;
+      height: 100%;
    }
 
    #About .Title {

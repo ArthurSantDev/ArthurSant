@@ -6,7 +6,7 @@
 
   color: rgba(255, 255, 255, 0.87);
   --color: #FFF;
-  background: linear-gradient(to right, #01000f, #01000f, #01000f, #000c1f);
+  background: linear-gradient(to right, #01000f, #01000f, #01000f, #000d22);
   --background: #01000f;
   --image: url('/public/patternDark.png');
   --image-mobile: url('/public/patternDarkMobile.png');
