@@ -62,7 +62,7 @@
 
     --mobile-color-full: #7e85ff;
     --mobile-border: #cacbff;
-    --mobile-border-900: #cacbff;
+    --mobile-border-900: #969cff;
     --mobile-button: #cacbff;
 
     --one: #008cff;
@@ -143,7 +143,7 @@ h1, h2, h3, p, a, svg, img {
 }
 
 .shadow {
-  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.09);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.09);
 }
 
 ::-webkit-scrollbar {

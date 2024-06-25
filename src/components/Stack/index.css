@@ -3,6 +3,7 @@
       color: var(--color-full);
       border-color: var(--color-full);
       transform: translateY(-5px);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
    }
 }
 
@@ -59,7 +60,7 @@
    border: 1.5px solid var(--border);
    background-color: var(--back);
    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-   transition: 0.2s ease-in;
+   transition: 0.2s;
 }
 .stack-box h1 {
    font-size: 16px;
@@ -115,7 +116,7 @@
       height: 120px;
       padding: 5px;
       border-color: var(--mobile-border-900);
-      transition: 0.07s ease-in;
+      transition: 0.07s;
    }
 
    .stack-box h1 {

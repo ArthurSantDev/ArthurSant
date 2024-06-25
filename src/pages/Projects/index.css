@@ -2,6 +2,7 @@
    .project:hover {
       border-color: var(--color-full);
       transform: translateY(-3px);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
    }
 
    .project-link a:hover {
@@ -9,10 +10,12 @@
       border: 1px solid var(--color-full);
       background-color: var(--hover-200);
       transform: translateY(-2px);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
    }
    .cant-btn a:hover {
       color: #cf3374;
       border: 1px solid #cf3374;
+      background-color: #fa9fc5;
       text-decoration: line-through;
       cursor: not-allowed;
    }
@@ -41,7 +44,7 @@
    border-radius: 12px;
    border: 1px solid var(--border);
    background: var(--project);
-   transition: 0.2s ease-in;
+   transition: 0.2s;
    /* box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.200); */
 }
 
@@ -122,8 +125,8 @@
    border: 1px solid var(--button);
    background-color: var(--back);
    color: var(--button);
-   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.09);
-   transition: 0.2s ease-in;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.09);
+   transition: 0.2s;
 }
 
 .project-link p {
@@ -145,6 +148,7 @@
 .cant-btn {
    color: var(--button);
    text-decoration: line-through;
+   transition: 0.2s;
 }
 
 button {
@@ -158,7 +162,7 @@ button {
    border: 1px solid var(--button);
    background-color: var(--back);
    cursor: pointer;
-   transition: 0.2s ease-in;
+   transition: 0.2s;
 }
 
 
@@ -174,7 +178,7 @@ button {
 
 @media (max-width: 500px) {
    .project:active {
-      border-color: var(--color-full);
+      border-color: var(--mobile-border-900);
       transform: translateY(0px);
    }
 
@@ -214,10 +218,9 @@ button {
       padding-right: 30px;
       margin: 20px 0;
       border-radius: 12px;
-      border: 1px solid var(--mobile-border);
+      border: 1px solid var(--mobile-border-900);
       background: var(--project);
-      transition: 0.2s ease-in;
-      /* box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.200); */
+      transition: 0.2s;
    }
    
    .project-img {
@@ -270,10 +273,10 @@ button {
       font-size: 13px;
       font-weight: 500;
       border-radius: 50px;
-      border-color: var(--mobile-button);
+      border-color: var(--mobile-border-900);
       background-color: var(--back);
-      color: var(--mobile-button);
-      transition: 0.07s ease-in;
+      color: var(--mobile-border-900);
+      transition: 0.07s;
    }
    
    .project-link p {
