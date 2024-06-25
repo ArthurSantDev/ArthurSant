@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './index.css';
 
 const one = "<";
@@ -8,13 +8,27 @@ const two = " />";
 
 function Index() {
   const [isOpen, setIsOpen] = useState(false);
+  const menuRef = useRef(null);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleClickOutside = (event) => {
+    if (menuRef.current && !menuRef.current.contains(event.target)) {
+      setIsOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
   return (
-    <nav>
+    <nav ref={menuRef}>
       <div className='Navbar shadow'>
         <div className='nav_title'>
           <Link to='/'>{one}ArthurSant{two}</Link>
