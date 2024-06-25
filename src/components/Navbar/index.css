@@ -95,11 +95,18 @@ nav {
       display: flex;
       flex-direction: column;
       align-items: center;
-      max-height: 0;
       overflow: hidden;
       position: absolute;
-      right: -110px;
+      top: 75px;
+      right: 0;
+      width: 100%;
+      height: 0;
       opacity: 0;
+      gap: 0px;
+      padding: 5px 0px 5px 0px;
+      border-radius: 15px;
+      border: 1px solid var(--color-full);
+      background-color: var(--background);
       transition: 0.5s;
    }
 
@@ -107,19 +114,14 @@ nav {
       width: 100%;
       font-size: 14px;
       text-align: center;
-      padding: 5px;
+      padding: 5px 0 5px 0;
    }
 
    .nav_links.open {
-      top: 70px;
+      top: 75px;
       right: 0px;
       width: 100%;
-      gap: 5px;
-      padding: 5px 0px 5px 0px;
-      max-height: 200px; /* Ajuste conforme necessário */
-      border-radius: 15px;
-      border: 1px solid var(--color-full);
-      background-color: var(--background);
+      height: 140px;
       opacity: 1;
    }
 
