@@ -1,20 +1,20 @@
 @media (min-width: 500px) {
    .skill:hover {
-   border: 1.5px solid var(--hover);
+   border: 1.5px solid var(--color-full);
    transform: translateY(-5px);
    }
 
    .social:hover {
-      border: 1.5px solid var(--hover);
+      border: 1.5px solid var(--color-full);
    }
 
    .icon:hover {
-      color: var(--hover);
+      color: var(--color-full);
       transform: translateY(-3px);
    }
 
    .skill a:hover {
-      color: var(--hover-dark);
+      color: var(--hover-100);
    }
 }
 
@@ -59,7 +59,7 @@
 }
 .animated-text span {
    position: relative;
-   color: var(--color-primary);
+   color: var(--color-full);
    margin-left: 10px;
 }
 
@@ -92,7 +92,7 @@
    width: calc(100% + 18px);
    height: 108%;
    right: -10px;
-   border-left: 3px solid var(--color-primary);
+   border-left: 3px solid var(--color-full);
    background: var(--background); /* Precisa ser da cor do fundo */
    transition: 0.3s;
    animation: cursor 1s infinite, typing 25s steps(18) infinite;
@@ -122,8 +122,9 @@
    padding: 10px 16px 5px;
    margin: 10px 0 10px 0px;
    border-radius: 12px;
-   border: 1.5px solid var(--color-secundary-dark);
-   background-color: var(--color-primary-dark);
+   border: 1.5px solid var(--border);
+   background-color: var(--color-full-dark);
+   color: var(--color);
    transition: 0.2s;
 }
 
@@ -163,8 +164,8 @@
    height: 185px;
    padding: 15px 15px 20px 15px;
    border-radius: 0px;
-   border: 1.5px solid var(--color-secundary-dark);
-   background-color: var(--color-primary-dark);
+   border: 1.5px solid var(--border);
+   background-color: var(--back);
    transition: 0.2s;
 }
 
@@ -209,21 +210,21 @@
 
 @media (max-width: 500px) {
    .skill:active {
-      border: 1.5px solid var(--hover);
+      border: 1.5px solid var(--color-full);
       transform: translateY(-5px);
    }
    
    .social:active {
-      border: 1.5px solid var(--hover);
+      border: 1.5px solid var(--color-full);
    }
    
    .icon:active {
-      color: var(--hover);
+      color: var(--color-full);
       transform: translateY(-3px);
    }
    
    .skill a:hover {
-      color: var(--hover-dark);
+      color: var(--hover-100);
    }
 
    #Home {
@@ -283,6 +284,7 @@
 
   .animated-text span {
       position: relative;
+      color: var(-color-mobile);
   }
   
   .animated-text span::before{
@@ -303,10 +305,12 @@
       margin: 12px 0 12px 15px;
       width: 140px;
       height: 30px;
+      border-color: var(--mobile-border);
   }
 
   .icon {
       font-size: 27px;
+      color: var(--color);
   }
 
   /* ///////////////////////////////////////////////// */
@@ -332,6 +336,7 @@
       max-width: 145px;
       height: 175px;
       padding: 15px;
+      border-color: var(--mobile-border);
    }
 
    .skill svg {

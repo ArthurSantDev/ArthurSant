@@ -4,22 +4,25 @@
 :root {
   color-scheme: light dark;
 
-  color: rgba(255, 255, 255, 0.87);
-  --color: #FFF;
+  color: #ffffffde;
+  --color: #ffffffde;
+
   background: linear-gradient(to right, #01000f, #01000f, #01000f, #000d22);
   --background: #01000f;
+  
   --image: url('/public/patternDark.png');
   --image-mobile: url('/public/patternDarkMobile.png');
 
+  --color-full: #20a6ff;
+  --border: #47d4ff3d;
+  --back: #000b1f;
+  --button: #47d4ff7a;
+  --hover-100: #09c6ff;
+
   --project: linear-gradient(to top, #000b1f, #001130);
 
-  --color-primary: #2088ff;
-  --color-secundary: #09b1ff;
-  --color-primary-dark: #000b1f;
-  --color-secundary-dark: #47d4ff3d;
-  --hover: #20adff;
-  --hover-dark: #09c6ff;
-  --button: #47d4ff7a;
+  --mobile-color-full: #20a6ff;
+  --mobile-border: #47d4ff3d;
 
   --one: #7fd6ff;
   --two: #f325f3;
@@ -40,31 +43,25 @@
     --color: #213547;
     background: linear-gradient(to right, #f8f8f8, #f8f8f8, #f8f8f8, #f1f1f1);
     --background: #f8f8f8;
+
     --image: url('/public/patternLight.png');
     --image-mobile: url('/public/patternLightMobile.png');
-
-    --project:  linear-gradient(to top,  #f0f0f0, #e6e6e6);
     
-    --color-primary: #878dff;
-    --color-secundary: #213547;
-    --color-primary-dark: #f0f0f0;
-    --color-secundary-dark: #b3b7ff;
-    --hover: #878dff;
-    /* --hover: #646cff; */
-    --hover-dark: #1b27ff;
+    --color-full: #646cff;
+    --border: #b3b7ff;
+    --back: #f0f0f0;
     --button: #9ea3ff;
+    --hover-100: #1b27ff;
+    
+    --project:  linear-gradient(to top,  #f0f0f0, #e6e6e6);
+
+    --mobile-color-full: #7e85ff;
+    --mobile-border: #cacbff;
 
     --one: #008cff;
     --two: #ac00ac;
     --three: #cfb313;
     --four: #11c911;
-    
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
   }
 }
 
@@ -87,7 +84,7 @@ body {
     padding: 0;
   }
 }
-h1, h2, h3, p {
+h1, h2, h3, p, a {
   user-select: none;
 }
 
@@ -117,11 +114,12 @@ h1, h2, h3, p {
 .Title {
   padding: 90px 0 0;
   font-size: 36px;
-  color: var(--color-primary);
+  color: var(--color-full);
 }
 @media (max-width: 500px) {
   .Title {
     font-size: 34px;
+    color: var(--mobile-color-full);
   }
 }
 
@@ -130,7 +128,7 @@ h1, h2, h3, p {
 }
 
 .border {
-  border: 2px solid var(--color-primary);
+  border: 2px solid var(--color-full);
 }
 
 .Scroll {
@@ -138,7 +136,7 @@ h1, h2, h3, p {
 }
 
 .shadow {
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.09);
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.09);
 }
 
 ::-webkit-scrollbar {
@@ -147,12 +145,12 @@ h1, h2, h3, p {
 
  a {
    font-weight: 500;
-   color: var(--color-primary);
+   color: var(--color-full);
    text-decoration: inherit;
    cursor: pointer;
  }
  a:hover {
-   color: var(--hover);
+   color: var(--color-full);
  }
 
  

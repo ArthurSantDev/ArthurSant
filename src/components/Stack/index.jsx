@@ -1,3 +1,4 @@
+// Column Stacks
 import { FaGithubAlt } from "react-icons/fa";
 import { SiPowerbi } from "react-icons/si"; 
 import { SiMicrosoftsqlserver } from "react-icons/si"; 
@@ -32,9 +33,9 @@ const index = () => {
   return (
    <div className="center column">
       <div className="stacks-sections">
-      <h2 className="frontend">
-         Front End <a>Skills</a>
-      </h2>
+         <h2 className="frontend">
+            Front End <i>Skills</i>
+         </h2>
          <div className='stacks-section'>
             <div className='stack-box'>
                <h1> JavaScript </h1>
@@ -96,9 +97,9 @@ const index = () => {
       </div>
 
       <div className="stacks-sections">
-      <h2 className="backend">
-         Back End <a>Skills</a>
-      </h2>
+         <h2 className="backend">
+            Back End <i>Skills</i>
+         </h2>
          <div className='stacks-section'>
             <div className='stack-box'>
                <h1> Node.js </h1>
