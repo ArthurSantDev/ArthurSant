@@ -1,3 +1,4 @@
+/* Estilos Gerais */
 @media (min-width: 500px) {
    .Navbar a:hover {
       color: var(--hover-100);
@@ -37,6 +38,7 @@ nav {
 .nav_links {
    display: flex;
    justify-content: space-around;
+   transition: max-height 0.3s ease;
 }
 
 .nav_links a {
@@ -52,6 +54,20 @@ nav {
    border: 1px solid aquamarine;
    border-radius: 8px;
    background-color: aquamarine;
+}
+
+/* Botão de Menu (Hamburger) */
+.nav_toggle {
+   display: none;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.nav_toggle .bar {
+   width: 25px;
+   height: 2px;
+   margin: 3px;
+   background-color: var(--color-full);
 }
 
 @media (max-width: 500px) {
@@ -71,9 +87,43 @@ nav {
    .Navbar {
       max-width: 80%;
       border-color: var(--mobile-color-full);
+      align-items: center;
+      position: relative;
    }
 
    .nav_links {
-      display: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-height: 0;
+      overflow: hidden;
+      position: absolute;
+      right: -110px;
+      opacity: 0;
+      transition: 0.5s;
+   }
+
+   .nav_links.open a {
+      width: 100%;
+      font-size: 14px;
+      text-align: center;
+      padding: 5px;
+   }
+
+   .nav_links.open {
+      top: 70px;
+      right: 0px;
+      width: 100%;
+      gap: 5px;
+      padding: 5px 0px 5px 0px;
+      max-height: 200px; /* Ajuste conforme necessário */
+      border-radius: 15px;
+      border: 1px solid var(--color-full);
+      background-color: var(--background);
+      opacity: 1;
+   }
+
+   .nav_toggle {
+      display: flex;
    }
 }
