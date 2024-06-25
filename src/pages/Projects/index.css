@@ -1,4 +1,4 @@
-@media (min-width: 430px) {
+@media (min-width: 500px) {
    .project:hover {
       border-color: var(--hover);
       transform: translateY(-3px);
@@ -174,24 +174,48 @@ button {
 
 
 @media (max-width: 500px) {
-   .project:hover {
+   .project:active {
       border-color: var(--hover);
       transform: translateY(-3px);
    }
 
-   .project-link a:hover {
+   .project-link a:active {
       color: var(--color-primary);
       border: 1px solid var(--hover);
       transform: translateY(-2px);
    }
-   .cant-btn a:hover {
+   .cant-btn a:active {
       color: #cf3374;
       border: 1px solid #cf3374;
       text-decoration: line-through;
       cursor: not-allowed;
    }
 
-   button:hover {
+   button:active {
+      color: var(--hover);
+      border-color: var(--hover);
+      transform: translateY(-2px);
+   }
+/* ///////////////////////////////////// */
+
+   .project:active {
+      border-color: var(--hover);
+      transform: translateY(-3px);
+   }
+
+   .project-link a:active {
+      color: var(--color-primary);
+      border: 1px solid var(--hover);
+      transform: translateY(-2px);
+   }
+   .cant-btn a:active {
+      color: #cf3374;
+      border: 1px solid #cf3374;
+      text-decoration: line-through;
+      cursor: not-allowed;
+   }
+
+   button:active {
       color: var(--hover);
       border-color: var(--hover);
       transform: translateY(-2px);

@@ -1,4 +1,4 @@
-@media (min-width: 300px) {
+@media (min-width: 500px) {
    .Navbar a:hover {
       color: var(--hover-dark);
    }
@@ -55,6 +55,10 @@ nav {
 }
 
 @media (max-width: 500px) {
+   .Navbar a:active {
+      color: var(--hover-dark);
+   }
+
    nav {
       display: flex;
       align-items: center;

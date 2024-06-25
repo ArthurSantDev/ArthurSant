@@ -1,4 +1,4 @@
-@media (min-width: 300px) {
+@media (min-width: 500px) {
    .skill:hover {
    border: 1.5px solid var(--hover);
    transform: translateY(-5px);
@@ -208,6 +208,23 @@
 /* /////////////////////////////////////////////////////////////////////////// */
 
 @media (max-width: 500px) {
+   .skill:active {
+      border: 1.5px solid var(--hover);
+      transform: translateY(-5px);
+      }
+   
+      .social:active {
+         border: 1.5px solid var(--hover);
+      }
+   
+      .icon:active {
+         color: var(--hover);
+         transform: translateY(-3px);
+      }
+   
+      .skill a:hover {
+         color: var(--hover-dark);
+      }
 
    #init-container {
       display: flex;

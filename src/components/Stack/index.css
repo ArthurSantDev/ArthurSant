@@ -1,4 +1,4 @@
-@media (min-width: 300px) {
+@media (min-width: 500px) {
    .stack-box:hover {
       color: var(--color-primary);
       border-color: var(--hover);
@@ -82,6 +82,11 @@
 
 
 @media (max-width: 500px) {
+   .stack-box:active {
+      color: var(--color-primary);
+      border-color: var(--hover);
+      transform: translateY(-5px);
+   }
 
    .frontend {
       color: var(--color-primary);
