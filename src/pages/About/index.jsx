@@ -22,7 +22,7 @@ const index = () => {
                Entrei no mundo da programação com intuito de achar soluções para problemas como  layout, 
                usabilidade e fluidez, o que considero ser meu forte. Como estou me especializando para 
                futuramente me tornar referência na área, busco sempre aprender e me atualizar sobre as principais 
-               técnicas e tecnologias do mercado, tendo como minhas principais características a capacidade de compreender 
+               técnicas e tecnologias do mercado, tendo como minhas mais fortes características a capacidade de compreender 
                e elevar o código e funcionalidades das aplicações em que trabalho.
                </p>
             </div>
