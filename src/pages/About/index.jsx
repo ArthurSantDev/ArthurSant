@@ -1,4 +1,4 @@
-import StackColumn from '../../components/Stack'
+import StacksColumn from '../../components/Stack'
 import './index.css'
 
 const index = () => {
@@ -18,13 +18,17 @@ const index = () => {
                   Olá mundo!
                </h2>
                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui numquam repellat mollitia quos eos quas a magni debitis, cupiditate laborum voluptatum nulla sed sunt autem molestias quo hic, voluptate magnam.
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, corrupti quam nisi quis nihil, maxime molestiae esse nobis praesentium eaque dignissimos natus impedit quibusdam? Fugiat ex id earum officia nobis.
+               Me chamo Arthur Gabriel Sant e sou um desenvolvedor Full Stack.  
+               Entrei no mundo da programação com intuito de achar soluções para problemas como  layout, 
+               usabilidade e fluidez, o que considero ser meu forte. Como estou me especializando para 
+               futuramente me tornar referência na área, busco sempre aprender e me atualizar sobre as principais 
+               técnicas e tecnologias do mercado, tendo como minhas principais características a capacidade de compreender 
+               e elevar o código e funcionalidades das aplicações em que trabalho.
                </p>
             </div>
          </div>
       </div>
-      <StackColumn />
+      <StacksColumn />
    </div>
    </div>
   )

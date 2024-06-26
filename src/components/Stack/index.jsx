@@ -62,7 +62,7 @@ const index = () => {
                <SiNextdotjs />
             </div>
             <div className='stack-box'>
-               <h1> Vute.Js </h1>
+               <h1> Vue.Js </h1>
                <FaVuejs />
             </div>
             <div className='stack-box'>

@@ -128,7 +128,7 @@ const index = () => {
         
         <Link to='projects'>
             <button className="shadow">
-                SEE MORE PROJECTS <i><BiPlus /></i>
+               <i><BiPlus /></i> SEE MORE PROJECTS 
             </button>
         </Link>
     </div>

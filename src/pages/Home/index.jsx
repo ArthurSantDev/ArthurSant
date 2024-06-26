@@ -48,8 +48,11 @@ const index = () => {
           <div className='skills'>
             <div className='skill shadow'>
               <SiReact className="one" />
-              <h2 className="one">Framworks</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quam veioenvo</p>
+              
+                <h2 className="one">Framworks</h2>
+              <div className="skill-text">
+                <p>Utilizo de Frameworks para um projeto mais ágil, eficaz e de simples manutenção.</p>
+              </div>
               <div className="link">
                 <a href="https://github.com/ArthurSantDev/Nike" target='_blank'>One project with..._</a>
               </div>
@@ -57,8 +60,11 @@ const index = () => {
 
             <div className='skill shadow'>
               <TbBrandRedux className="two" />
+              
               <h2 className="two">Libraries</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quam veioenvo</p>
+              <div className="skill-text">
+                <p>Faço uso de bibliotecas como subprogramas para melhorar o desenvolvimento.</p>
+              </div>
               <div className="link">
                 <a href="https://github.com/ArthurSantDev/Mern.In" target='_blank'>One project with..._</a>
               </div>
@@ -66,8 +72,11 @@ const index = () => {
 
             <div className='skill shadow'>
               <FaPython className="three" />
-              <h2 className="three">Data Science</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quam veioenvo</p>
+              
+                <h2 className="three">Data Science</h2>
+              <div className="skill-text">
+                <p>Uso do estudo dos dados para extrair insights que sejam relevantes e úteis.</p>
+              </div>
               <div className="link">
                 <a href="https://github.com/ArthurSantDev/Crud-SQL" target='_blank'>One project with..._</a>
               </div>
@@ -75,8 +84,11 @@ const index = () => {
 
             <div className='skill shadow'>
               <SiNodedotjs className="four" />
-              <h2 className="four">API's</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quam veioenvo</p>
+              
+                <h2 className="four">API's</h2>
+              <div className="skill-text">
+                <p>Utilizo API's, para extrair e consumir dados de difernetes tipos de sistemas.</p>
+              </div>
               <div className="link">
                 <a href="https://github.com/ArthurSantDev/Mern.In" target='_blank'>One project with..._</a>
               </div>
