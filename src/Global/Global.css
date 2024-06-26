@@ -17,10 +17,13 @@
   --border: #377dff48;
   --back: #000b1f;
   
+  --active: #86e3ff;
+  --active-background: #005085;
+  
   --button: #47d4ff7a;
   --button-back: #00091a;
 
-  --hover-100: #00c3ff;
+  --hover-100: #86d3ff;
   --hover-200:  #005085;
 
   --project: linear-gradient(to top, #000b1f, #001e41);
@@ -56,11 +59,14 @@
     --color-full: #646cff;
     --border: #b3b7ff;
     --back: #f0f0f0;
+    
+    --active: #000dff;
+    --active-background: #b9bdff;
 
     --button: #969cff;
     --button-back: #ffffff;
     
-    --hover-100: #1b27ff;
+    --hover-100: #000dff;
     --hover-200: #b9bdff;
     
     --project:  linear-gradient(to top,  #f8f8f8, #e2e2e2);
@@ -125,9 +131,8 @@ h1, h2, h3, p, a, svg, img {
 }
 
 .Title {
-  padding: 100px 0 0;
+  padding: 110px 0 0;
   font-size: 36px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   color: var(--color-full);
 }
 @media (max-width: 500px) {
@@ -153,12 +158,12 @@ h1, h2, h3, p, a, svg, img {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.routes-button {
-  width: 200px;
-  height: 40px;
+button {
+  width: 180px;
+  height: 45px;
   gap: 5px;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 50px;
   border: 1px solid var(--mobile-button);
   background-color: var(--button-back);

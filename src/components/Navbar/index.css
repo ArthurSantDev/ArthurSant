@@ -67,12 +67,12 @@ nav {
 .nav_toggle .bar {
    width: 25px;
    height: 2px;
-   margin: 3px;
+   margin: 2.5px;
    background-color: var(--color-full);
 }
 
 .nav_links a.active {
-   text-decoration: underline;
+   color: var(--active);
 }
 
 @media (max-width: 500px) {
@@ -117,7 +117,7 @@ nav {
    }
 
    .nav_links a {
-      width: 300px;
+      width: 95%;
       font-size: 14px;
       text-align: center;
       padding: 5px 0 5px 0;
@@ -134,18 +134,18 @@ nav {
    }
 
    .nav_links.open a {
-      width: 300px;
+      width: 95%;
       font-size: 14px;
       text-align: center;
       padding: 5px 0 5px 0;
    }
 
+   .nav_links a.active {
+      text-decoration: none;
+      background-color: var(--active-background);
+   }
+
    .nav_toggle {
       display: flex;
    }
-
-   .nav_links a.active {
-      text-decoration: none;
-      background-color: var(--mobile-border-900);
-  }
 }

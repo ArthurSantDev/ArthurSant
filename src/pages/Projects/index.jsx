@@ -126,7 +126,7 @@ const index = () => {
         </section>
         
         <Link to='projects'>
-            <button className="routes-button shadow">
+            <button className="shadow">
                 SEE ALL PROJECTS
             </button>
         </Link>

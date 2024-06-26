@@ -35,10 +35,9 @@
    padding: 30px;
    margin: 30px 0;
    border-radius: 12px;
-   border: 1px solid var(--border);
+   border: 1px solid var(--color-full);
    background: var(--project);
    transition: 0.3s;
-   /* box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.200); */
 }
 
 .project-img {
@@ -192,7 +191,7 @@
       padding: 23px 30px 30px 30px;
       margin: 20px 0;
       border-radius: 12px;
-      border: 1px solid var(--mobile-border-900);
+      border: 1px solid var(--color-full);
       background: var(--project);
       transition: 0.2s;
    }

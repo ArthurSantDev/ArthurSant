@@ -3,12 +3,10 @@ import { Link as ScrollLink, Events, scrollSpy } from 'react-scroll';
 import React, { useState, useRef, useEffect } from 'react';
 import './index.css';
 
-const one = "<";
-const two = " />";
+const ArthurSant = "<ArthurSant />";
 
 function Index() {
   const [isOpen, setIsOpen] = useState(false);
-  const [activeLink, setActiveLink] = useState('');
   const menuRef = useRef(null);
 
   const toggleMenu = () => {
@@ -28,23 +26,11 @@ function Index() {
     };
   }, []);
 
-  // useEffect(() => {
-  //   Events.scrollEvent.register('begin', function() {
-  //   });
-  //   Events.scrollEvent.register('end', function() {
-  //   });
-  //   scrollSpy.update();
-  //   return () => {
-  //     Events.scrollEvent.remove('begin');
-  //     Events.scrollEvent.remove('end');
-  //   };
-  // }, []);
-
   return (
     <nav ref={menuRef}>
       <div className='Navbar shadow'>
         <div className='nav_title'>
-          <Link to='/'>{one}ArthurSant{two}</Link>
+          <Link to='/'>{ArthurSant}</Link>
         </div>
         <div className='nav_toggle' onClick={toggleMenu}>
           <span className='bar'></span>

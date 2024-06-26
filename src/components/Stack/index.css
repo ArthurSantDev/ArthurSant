@@ -116,7 +116,7 @@
       width: 140px;
       height: 120px;
       padding: 5px;
-      border-color: var(--mobile-border-900);
+      border-color: var(--color-full);
       transition: 0.07s;
    }
 
