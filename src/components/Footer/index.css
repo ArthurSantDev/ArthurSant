@@ -4,6 +4,7 @@
    }
    .footer_links:hover {
       border-color: var(--color-full);
+      background-color: var(--back-hover);
    }
    .footer_link:hover {
       color: var(--color-full);
@@ -27,12 +28,12 @@
    border-radius: 20px;
    border: 1px solid var(--border);
    background-color: var(--back);
-   transition: 0.3s;
+   transition: 0.2s;
 }
 
 .footer_link {
    font-size: 38px;
    margin: 5px 10px 0px 10px;
-   transition: 0.3s;
+   transition: 0.2s;
    color: var(--color);
 }

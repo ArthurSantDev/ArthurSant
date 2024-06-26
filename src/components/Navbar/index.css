@@ -1,7 +1,7 @@
 /* Estilos Gerais */
 @media (min-width: 500px) {
    .Navbar a:hover {
-      color: var(--hover-100);
+      color: var(--active);
    }
 }
 
@@ -28,6 +28,10 @@ nav {
    border-radius: 15px;
    backdrop-filter: blur(15px);
    background-color: transparent;
+}
+
+.nav_title {
+   margin-bottom: 2px;
 }
 
 .nav_title a {

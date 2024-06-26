@@ -6,15 +6,15 @@
 
    .project-link a:hover {
       color: var(--hover-100);
-      border: 1px solid var(--color-full);
+      border-color: var(--color-full);
       background-color: var(--hover-200);
       transform: translateY(-2px);
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
    }
    .cant-btn a:hover {
-      color: #cf3374;
-      border: 1px solid #cf3374;
-      background-color: #fa9fc5;
+      color: var(--cant);
+      border-color: var(--cant);
+      background-color: var(--cant-back);
       text-decoration: line-through;
       cursor: not-allowed;
    }
@@ -156,7 +156,7 @@
 
 @media (max-width: 500px) {
    .project:active {
-      border-color: var(--mobile-border-900);
+      border-color: var(--color-full);
       transform: translateY(0px);
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
    }
@@ -169,9 +169,9 @@
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
    }
    .cant-btn a:active {
-      color: #cf3374;
-      border: 1px solid #cf3374;
-      background-color: #fa9fc5;
+      color: var(--cant);
+      border-color: var(--cant);
+      background-color: var(--cant-back);
       text-decoration: line-through;
       cursor: not-allowed;
    }

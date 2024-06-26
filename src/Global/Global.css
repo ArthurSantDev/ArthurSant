@@ -14,24 +14,28 @@
   --image-mobile: url('/public/patternDarkMobile.png');
 
   --color-full: #20a6ff;
-  --border: #377dff48;
+  --border: #377dff67;
   --back: #000b1f;
+  --back-hover: #000f2b;
   
   --button: #47d4ff7a;
   --button-back: #00091a;
 
-  --hover-100: #86d3ff;
+  --hover-100: #67edff;
   --hover-200:  #005085;
 
-  --project: linear-gradient(to top, #000b1f, #001e41);
+  --project: linear-gradient(to top, #00091a, #002652);
 
   --mobile-color-full: #20a6ff;
   --mobile-button: #20a6ffce;
-  --mobile-border-100: #20a6ff;
+  --mobile-border-100: #20a6ffe5;
   --mobile-border-200: #20a6ff86;
 
-  --active: #fffffff6;
+  --active: #67edff;
   --active-background: #3766ff33;
+
+  --cant: #cf3374;
+  --cant-back: #5a0328;
 
   --one: #7fd6ff;
   --two: #f325f3;
@@ -59,6 +63,7 @@
     --color-full: #646cff;
     --border: #b3b7ff;
     --back: #f0f0f0;
+    --back-hover: #f0f0f0;
 
     --button: #969cff;
     --button-back: #ffffff;
@@ -70,12 +75,14 @@
 
     --mobile-color-full: #7e85ff;
     --mobile-button: #8284ff;
-    --mobile-border-100: #cacbff;
+    --mobile-border-100: #7e85ff;
     --mobile-border-200: #969bff93;
 
     --active: #000dff;
     --active-background: #d6d7ff;
     
+    --cant: #cf3374;
+    --cant-back: #fa9fc5;
 
     --one: #008cff;
     --two: #ac00ac;
@@ -132,12 +139,13 @@ h1, h2, h3, p, a, svg, img {
 }
 
 .Title {
-  padding: 110px 0 0;
+  padding: 115px 0 0;
   font-size: 36px;
   color: var(--color-full);
 }
 @media (max-width: 500px) {
   .Title {
+    padding: 110px 0 0;
     font-size: 34px;
     color: var(--mobile-color-full);
   }
@@ -170,6 +178,12 @@ button {
   background-color: var(--button-back);
   color: var(--mobile-button);
   transition: 0.2s;
+}button:hover {
+  color: var(--hover-100);
+  border-color: var(--color-full);
+  background-color: var(--hover-200);
+  transform: translateY(-2px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 ::-webkit-scrollbar {
