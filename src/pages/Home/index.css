@@ -266,24 +266,24 @@
       align-items: start;
       flex-direction: column;
       width: 300px;
-      margin: 0px 0px 0px 0px;
+      margin: 0px 0px 0px 7px;
   }
 
   .animated-text > h3 {
       font-weight: 600;
-      font-size: 21px;
+      font-size: 23px;
       margin: 0px 0px 0px 2px;
   }
 
   .animated-text > h1{
       font-weight: 600;
-      font-size: 38px;
+      font-size: 40px;
       margin: -10px 0px 0px 0px;
   }
 
   .animated-text > h2{
       font-weight: 600;
-      font-size: 20px;
+      font-size: 21px;
       margin: -5px 0px 0px 0px;
   }
 
@@ -307,7 +307,7 @@
   }
 
   .social {
-      margin: 15px 0 17px 0px;
+      margin: 15px 0 20px 5px;
       width: 140px;
       height: 30px;
       border-color: var(--mobile-border-900);
