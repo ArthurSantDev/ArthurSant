@@ -216,6 +216,7 @@
 @media (max-width: 500px) {
    .social:active {
       border: 1.5px solid var(--color-full);
+      background: var(--back-hover);
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
    }
 
@@ -226,6 +227,7 @@
 
    .skill:active {
       border: 1.5px solid var(--color-full);
+      background: var(--back-hover);
       transform: translateY(-5px);
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
    }
