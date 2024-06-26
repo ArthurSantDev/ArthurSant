@@ -17,9 +17,6 @@
   --border: #377dff48;
   --back: #000b1f;
   
-  --active: #ffffffde;
-  --active-background: #3766ff33;
-  
   --button: #47d4ff7a;
   --button-back: #00091a;
 
@@ -29,9 +26,12 @@
   --project: linear-gradient(to top, #000b1f, #001e41);
 
   --mobile-color-full: #20a6ff;
-  --mobile-border: #20a6ffdc;
-  --mobile-border-900: #377dff48;
   --mobile-button: #20a6ffce;
+  --mobile-border-100: #20a6ff;
+  --mobile-border-200: #20a6ff86;
+
+  --active: #fffffff6;
+  --active-background: #3766ff33;
 
   --one: #7fd6ff;
   --two: #f325f3;
@@ -59,9 +59,6 @@
     --color-full: #646cff;
     --border: #b3b7ff;
     --back: #f0f0f0;
-    
-    --active: #000dff;
-    --active-background: #d6d7ff;
 
     --button: #969cff;
     --button-back: #ffffff;
@@ -72,9 +69,13 @@
     --project:  linear-gradient(to top,  #f8f8f8, #e2e2e2);
 
     --mobile-color-full: #7e85ff;
-    --mobile-border: #cacbff;
-    --mobile-border-900: #969bff6e;
     --mobile-button: #8284ff;
+    --mobile-border-100: #cacbff;
+    --mobile-border-200: #969bff93;
+
+    --active: #000dff;
+    --active-background: #d6d7ff;
+    
 
     --one: #008cff;
     --two: #ac00ac;
