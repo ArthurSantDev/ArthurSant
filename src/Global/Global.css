@@ -170,7 +170,10 @@ h1, h2, h3, p, a, svg, img {
 }
 
 button {
-  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
   height: 45px;
   gap: 5px;
   font-size: 13px;
@@ -186,6 +189,10 @@ button {
   background-color: var(--hover-200);
   transform: translateY(-2px);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+button i {
+  font-size: 20px;
+  margin: 0 -4px -4px 0
 }
 
 ::-webkit-scrollbar {

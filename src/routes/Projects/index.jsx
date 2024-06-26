@@ -25,9 +25,9 @@ const index = () => {
                     </p>
                 </div>
                 <div class="stack-icons">
+                <img src="/assets/stacks/redux.svg"/>
                     <img src="/assets/stacks/react.svg"/>
                     <img src="/assets/stacks/javascript.svg"/>
-                    <img src="/assets/stacks/redux.svg"/>
                     <img src="/assets/stacks/mui.svg"/>
                     <img src="/assets/stacks/node.svg"/> 
                     <img src="/assets/stacks/mongodb.svg"/>
@@ -64,11 +64,11 @@ const index = () => {
                     </p>
                 </div>
                 <div class="stack-icons">
+                <img src="/assets/stacks/vite-js.svg"/>
                     <img src="/assets/stacks/react.svg"/>
-                    <img src="/assets/stacks/vite-js.svg"/>
                     <img src="/assets/stacks/javascript.svg"/>
                     <img src="/assets/stacks/tailwind.svg"/>
-                    <img src="/assets/stacks/git.svg"/>
+                    <img src="/assets/stacks/github.svg"/>
                 </div>
                 <div className='about-buttons'>
                     <div class="project-link github-btn">
@@ -105,7 +105,7 @@ const index = () => {
                         <img src="/assets/stacks/react.svg"/>
                         <img src="/assets/stacks/typescript.svg"/>
                         <img src="/assets/stacks/tailwind.svg"/> 
-                        <img src="/assets/stacks/git.svg"/>
+                        <img src="/assets/stacks/github.svg"/>
                     </div>
                     <div className='about-buttons'>
                         <div class="project-link github-btn">
@@ -141,7 +141,7 @@ const index = () => {
                         <img src="/assets/stacks/javascript.svg"/>
                         <img src="/assets/stacks/css.svg"/>
                         <img src="/assets/stacks/html.svg"/>
-                        <img src="/assets/stacks/git.svg"/>
+                        <img src="/assets/stacks/github.svg"/>
                     </div>
                     <div className='about-buttons'>
                         <div class="project-link github-btn">
@@ -178,7 +178,7 @@ const index = () => {
                         <img src="/assets/stacks/vite-js.svg"/>
                         <img src="/assets/stacks/javascript.svg"/>
                         <img src="/assets/stacks/css.svg"/>
-                        <img src="/assets/stacks/git.svg"/>
+                        <img src="/assets/stacks/github.svg"/>
                     </div>
                     <div className='about-buttons'>
                         <div class="project-link github-btn">
