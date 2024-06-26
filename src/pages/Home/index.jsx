@@ -21,7 +21,7 @@ const index = () => {
                   <h3>Olá, meu nome é</h3>
                   <h1>Arthur Sant</h1>
                   <h2>
-                      e eu sou 
+                      e sou 
                       <span class="typing"></span>
                   </h2>
               </div>
