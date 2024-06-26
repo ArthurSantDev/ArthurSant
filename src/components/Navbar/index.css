@@ -116,7 +116,7 @@ nav {
       padding: 0px 0px 0px 0px;
       border-radius: 15px;
       border: 0px solid var(--color-full);
-      background-color: var(--background);
+      background: var(--active-nav-background);
       transition: 0.5s;
    }
 
