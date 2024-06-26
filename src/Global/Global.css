@@ -17,8 +17,8 @@
   --border: #377dff48;
   --back: #000b1f;
   
-  --active: #86e3ff;
-  --active-background: #005085;
+  --active: #ffffffde;
+  --active-background: #3766ff33;
   
   --button: #47d4ff7a;
   --button-back: #00091a;
@@ -61,7 +61,7 @@
     --back: #f0f0f0;
     
     --active: #000dff;
-    --active-background: #b9bdff;
+    --active-background: #d6d7ff;
 
     --button: #969cff;
     --button-back: #ffffff;

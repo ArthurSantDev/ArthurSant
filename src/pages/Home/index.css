@@ -95,6 +95,7 @@
    width: calc(100% + 18px);
    height: 108%;
    right: -10px;
+   margin: 0 0 0 -5px;
    border-left: 3px solid var(--color-full);
    background: var(--background); /* Precisa ser da cor do fundo */
    transition: 0.3s;
@@ -283,7 +284,7 @@
 
   .animated-text > h2{
       font-weight: 600;
-      font-size: 20px;
+      font-size: 21px;
       margin: -5px 0px 0px 0px;
   }
 
@@ -302,7 +303,7 @@
       position: absolute;
       width: calc(100% + 5px);
       height: 110%;
-      right: -10px;
+      right: -8px;
       background: var(--background); /* Precisa ser da cor do fundo */
   }
 
@@ -310,7 +311,8 @@
       margin: 15px 0 20px 5px;
       width: 140px;
       height: 30px;
-      border-color: var(--mobile-border-900);
+      border-color: var(--color-full);
+      /* border-color: var(--mobile-border-900); */
   }
 
   .icon {
@@ -341,7 +343,8 @@
       max-width: 145px;
       height: 175px;
       padding: 15px;
-      border-color: var(--mobile-border-900);
+      border-color: var(--color-full);
+      /* border-color: var(--mobile-border-900); */
       transition: 0.08s;
    }
 
