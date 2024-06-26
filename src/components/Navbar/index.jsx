@@ -28,20 +28,17 @@ function Index() {
     };
   }, []);
 
-  useEffect(() => {
-    Events.scrollEvent.register('begin', function() {
-    });
-
-    Events.scrollEvent.register('end', function() {
-    });
-
-    scrollSpy.update();
-
-    return () => {
-      Events.scrollEvent.remove('begin');
-      Events.scrollEvent.remove('end');
-    };
-  }, []);
+  // useEffect(() => {
+  //   Events.scrollEvent.register('begin', function() {
+  //   });
+  //   Events.scrollEvent.register('end', function() {
+  //   });
+  //   scrollSpy.update();
+  //   return () => {
+  //     Events.scrollEvent.remove('begin');
+  //     Events.scrollEvent.remove('end');
+  //   };
+  // }, []);
 
   return (
     <nav ref={menuRef}>
