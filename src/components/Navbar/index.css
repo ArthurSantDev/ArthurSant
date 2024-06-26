@@ -56,11 +56,12 @@ nav {
    background-color: aquamarine;
 }
 
-/* Botão de Menu (Hamburger) */
 .nav_toggle {
    display: none;
    flex-direction: column;
    cursor: pointer;
+   padding: 5px;
+   margin-right: -5px;
 }
 
 .nav_toggle .bar {
@@ -103,16 +104,16 @@ nav {
       position: absolute;
       overflow: hidden;
       top: 75px;
-      right: 0;
+      right: 0px;
       width: 100%;
-      height: 0;
+      height: 0px;
       opacity: 1;
       gap: 0px;
       padding: 0px 0px 0px 0px;
       border-radius: 15px;
       border: 0px solid var(--color-full);
       background-color: var(--background);
-      transition: 0.4s;
+      transition: 0.5s;
    }
 
    .nav_links a {
