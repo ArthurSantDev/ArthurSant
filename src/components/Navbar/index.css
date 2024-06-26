@@ -121,7 +121,7 @@ nav {
       border-radius: 15px;
       border: 0px solid var(--color-full);
       background: var(--active-nav-background);
-      transition: 0.5s;
+      transition: 0.4s;
    }
 
    .nav_links a {
