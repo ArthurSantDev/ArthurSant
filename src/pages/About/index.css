@@ -77,11 +77,11 @@
       align-items: center;
       justify-content: center;
       width: 100%;
-      margin-top: 30px;
+      margin-top: 20px;
    }
    .about_img img {
       width: 220px;
-      margin: 0 00px 0 0;
+      margin: 0 0px 0 0;
       border-radius: 20px;
       border: 1px solid var(--mobile-border);
    }
