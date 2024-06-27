@@ -150,6 +150,7 @@ h1, h2, h3, p, a, svg, img {
 }
 @media (max-width: 500px) {
   .container {
+    min-width: 100%;
     max-width: 100%;
   }
 }
