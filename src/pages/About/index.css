@@ -1,3 +1,9 @@
+@media (min-width: 500px) {
+   .about_img img:hover {
+      transform: translateY(-3px);
+   }
+}
+
 .back {
    max-width: 100%;
    min-height: calc(100vh - 40px); /* Ocupa a altura total da visualização */
@@ -76,7 +82,7 @@
 
    #About .Title {
       width: 300px;
-      padding: 100px 20px 0;
+      padding: 110px 20px 0;
    }
    
    .about_img {
@@ -103,6 +109,7 @@
       padding: 0px 0px 0px 0px;
    }
    .about_text p {
+      font-size: 16.3px;
       padding: 4px 0px 0px 0px;
    }
 }

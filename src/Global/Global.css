@@ -10,7 +10,7 @@
   --background: #01000f;
   
   --image: url('/public/patternDarkr.png');
-  --image-mobile: url('/public/patternDarkM.png');
+  --image-mobile: url('/public/z.png');
 
   --color-full: #20adff;
   --border: #377dff67;
@@ -31,7 +31,7 @@
   --mobile-border-200: #20a6ff86;
 
   --active: #20adff;
-  --not-active: #377dffd0;
+  --not-active: #20a6ffbb;
   --active-background: #20a6ff69;
   --active-nav-background: linear-gradient(to top, #00091a, #002652);
 
