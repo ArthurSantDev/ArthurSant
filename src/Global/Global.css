@@ -10,7 +10,7 @@
   --background: #01000f;
   
   --image: url('/public/patternDark.png');
-  --image-mobile: url('/public/patternDarkMobileLong.png');
+  --image-mobile: url('/public/patternDarkMobile.png');
 
   --color-full: #20adff;
   --border: #377dff67;
@@ -58,7 +58,7 @@
     --background: #f8f8f8;
 
     --image: url('/public/patternLight.png');
-    --image-mobile: url('/public/patternLightMobileLong.png');
+    --image-mobile: url('/public/patternLightMobile.png');
     
     --color-full: #646cff;
     --border: #b3b7ff;
