@@ -38,6 +38,7 @@
    border-radius: 12px;
    border: 1px solid var(--project-border);
    background: var(--project);
+   box-shadow: var(--shadow);
    transition: 0.2s;
 }
 
@@ -141,7 +142,6 @@
 .cant-btn {
    color: var(--button);
    text-decoration: line-through;
-   transition: 0.2s;
 }
 
 

@@ -130,6 +130,7 @@
    border: 1.5px solid var(--border);
    background-color: var(--back);
    color: var(--color);
+   box-shadow: var(--shadow);
    transition: 0.17s;
 }
 
@@ -171,6 +172,7 @@
    border-radius: 0px;
    border: 1.5px solid var(--border);
    background-color: var(--back);
+   box-shadow: var(--shadow);
    transition: 0.2s;
 }
 

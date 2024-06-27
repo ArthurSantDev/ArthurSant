@@ -5,10 +5,11 @@
    .footer_links:hover {
       border-color: var(--color-full);
       background-color: var(--back-hover);
+      box-shadow: var(--shadow-hover);
    }
    .footer_link:hover {
       color: var(--color-full);
-      transform: translateY(-5px);
+      transform: translateY(-3px);
    }
 }
 
@@ -28,12 +29,13 @@
    border-radius: 20px;
    border: 1px solid var(--border);
    background-color: var(--back);
+   box-shadow: var(--shadow);
    transition: 0.2s;
 }
 
 .footer_link {
-   font-size: 38px;
-   margin: 5px 10px 0px 10px;
+   font-size: 40px;
+   margin: 5px 12px 0px 12px;
    transition: 0.2s;
    color: var(--color);
 }

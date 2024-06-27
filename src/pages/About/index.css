@@ -44,6 +44,7 @@
    margin: 0 50px 0 0;
    border-radius: 20px;
    border: 1px solid var(--color-full);
+   box-shadow: var(--shadow);
    transition: 0.2s;
 }
 
