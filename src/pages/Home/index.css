@@ -2,7 +2,7 @@
    .social:hover {
       border: 1.5px solid var(--color-full);
       background-color: var(--back-hover);
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+      box-shadow: var(--shadow-hover);
    }
 
    .icon:hover {
@@ -14,7 +14,7 @@
    border: 1.5px solid var(--color-full);
    background-color: var(--back-hover);
    transform: translateY(-3px);
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+   box-shadow: var(--shadow-hover);
    }
 
    .skill a:hover {
@@ -221,7 +221,7 @@
    .social:active {
       border: 1.5px solid var(--color-full);
       background: var(--back-hover);
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+      box-shadow: var(--shadow-hover);
    }
 
    .icon:active {
@@ -233,7 +233,7 @@
       border: 1.5px solid var(--color-full);
       background: var(--back-hover);
       transform: translateY(-5px);
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+      box-shadow: var(--shadow-hover);
    }
    
    .skill a:hover {

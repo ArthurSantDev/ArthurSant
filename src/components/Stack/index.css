@@ -4,7 +4,7 @@
       border-color: var(--color-full);
       background-color: var(--back-hover);
       transform: translateY(-5px);
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      box-shadow: var(--shadow-hover);
    }
 }
 
@@ -60,7 +60,7 @@
    border-radius: 12px;
    border: 1.5px solid var(--border);
    background-color: var(--back);
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+   box-shadow: var(--shadow);
    transition: 0.2s;
 }
 .stack-box h1 {
@@ -88,7 +88,7 @@
       color: var(--color-full);
       border-color: var(--color-full);
       background: var(--back-hover);
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      box-shadow: var(--shadow-hover);
       transform: translateY(-5px);
    }
 

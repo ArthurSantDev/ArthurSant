@@ -1,6 +1,7 @@
 @media (min-width: 500px) {
    .about_img img:hover {
       transform: translateY(-3px);
+      box-shadow: var(--shadow-hover);
    }
 }
 
@@ -58,7 +59,13 @@
 }
 
 @media (max-width: 500px) {
+   .about_img img:active {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-hover);
+   }
+
    .back {
+      max-width: 100%;
       background-image: var(--image-mobile);
       background-attachment:local;
       border-radius: 20px;
@@ -96,7 +103,7 @@
       width: 220px;
       margin: 0 0px 0 0;
       border-radius: 20px;
-      border: 1px solid var(--mobile-border);
+      border: 0px solid var(--mobile-border-200);
    }
 
    .about_text {
