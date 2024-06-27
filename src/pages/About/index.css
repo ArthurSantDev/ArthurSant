@@ -67,7 +67,7 @@
    .back {
       max-width: 100%;
       background-image: var(--image-mobile);
-      background-attachment: fixed;
+      background-attachment: local;
       border-radius: 20px;
    }
    
