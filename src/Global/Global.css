@@ -15,7 +15,7 @@
 
 /* About Images */
   --image: url('/public/patternDark.png');
-  --image-mobile: url('/public/patternDarkM.png');
+  --image-M: url('/public/patternDarkM.png');
 
 /* Main colors */
   --color-full: #20adff;  
@@ -31,20 +31,23 @@
   --cant: #cf3374;
   --cant-back: #5a0328;
 
-  --mobile-color-full: #20a6ff;
-  --mobile-button: #20a6ffce;
-  --mobile-border-100: #20a6ffbb;
-  --mobile-border-200: #20a6ff86;
+  --M-color-full: #20a6ff;
+  --M-button: #20a6ffce;
+  --M-border-100: #20a6ffbb;
+  --M-border-200: #20a6ff86;
+  
 
 /* Project Colors */
   --project: linear-gradient(to top, #00091a, #00244d);
   --project-border: #0077ff;
 
 /* Navigation bar colors */
-  --active: #20adff;
+  --active: #54c0ff;
+  --active-M: #a6f2ff;
   --not-active: #20a6ffbb;
+  --not-active-M: #54c0ffef;
   --active-background: #20a6ff69;
-  --active-nav-background: linear-gradient(to top, #00091a, #002652);
+  --active-nav-background: linear-gradient(to top, #000816, #003066);
 
 /* Skill box colors */
   --one: #7fd6ff;
@@ -74,7 +77,7 @@
 
   /* About Images */
     --image: url('/public/patternLight.png');
-    --image-mobile: url('/public/patternLightM.png');
+    --image-M: url('/public/patternLightM.png');
 
 
   /* Main colors */
@@ -91,10 +94,10 @@
     --cant: #cf3374;
     --cant-back: #fa9fc5;
     
-    --mobile-color-full: #7e85ff;
-    --mobile-button: #8284ff;
-    --mobile-border-100: #7e85ff;
-    --mobile-border-200: #969bff93;
+    --M-color-full: #7e85ff;
+    --M-button: #8284ff;
+    --M-border-100: #7e85ff;
+    --M-border-200: #969bff93;
     
   /* Project Colors */
     --project:  linear-gradient(to top,  #f8f8f8, #e2e2e2);
@@ -102,9 +105,11 @@
 
   /* Navigation bar colors */
     --active: #000dff;
+    --active-M: #1b27ff;
     --not-active: #646cffe1;
+    --not-active-M: #646cff;
     --active-background: #d6d7ff;
-    --active-nav-background: #f8f8f8;
+    --active-nav-background: linear-gradient(to right, #f8f8f8, #f8f8f8, #f1f1f1);
 
   /* Skill box colors */
     --one: #008cff;
@@ -176,12 +181,13 @@ h1, h2, h3, p, a, svg, img {
   .Title {
     padding: 110px 0 0;
     font-size: 34px;
-    color: var(--mobile-color-full);
+    color: var(--M-color-full);
   }
 }
 
-.mt {
-  margin: 100px 0 0;
+.blur {
+  backdrop-filter: blur(15px);
+  background-color: transparent;
 }
 
 .border {
@@ -198,9 +204,9 @@ button {
   font-size: 13px;
   font-weight: 600;
   border-radius: 50px;
-  border: 1px solid var(--mobile-button);
+  border: 1px solid var(--M-button);
   background-color: var(--button-back);
-  color: var(--mobile-button);
+  color: var(--M-button);
   box-shadow: var(--shadow);
   transition: 0.2s;
 }button:hover {

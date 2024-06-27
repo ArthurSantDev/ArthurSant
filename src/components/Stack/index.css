@@ -93,14 +93,14 @@
    }
 
    .frontend {
-      color: var(--mobile-color-full);
+      color: var(--M-color-full);
       font-size: 32px;
       font-weight: 500;
       padding: 40px 0 10px 30px;
    }
    
    .backend {
-      color: var(--mobile-color-full);
+      color: var(--M-color-full);
       font-size: 32px;
       font-weight: 500;
       padding: 15px 0 10px 30px;
@@ -118,7 +118,7 @@
       width: 140px;
       height: 120px;
       padding: 5px;
-      border-color: var(--mobile-border-100);
+      border-color: var(--M-border-100);
       transition: 0.07s;
    }
 

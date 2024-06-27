@@ -299,7 +299,7 @@
 
   .animated-text span {
       position: relative;
-      color: var(-color-mobile);
+      color: var(-color-M);
   }
   
   .animated-text span::before{
@@ -317,11 +317,11 @@
   }
 
   .social {
-      margin: 15px 0 20px 5px;
+      margin: 15px 0 20px 4.5px;
       width: 140px;
       height: 30px;
-      border-color: var(--mobile-border-200);
-      /* border-color: var(--mobile-border-900); */
+      border-color: var(--M-border-200);
+      /* border-color: var(--M-border-900); */
   }
 
   .icon {
@@ -352,8 +352,8 @@
       max-width: 145px;
       height: 170px;
       padding: 15px;
-      border-color: var(--mobile-border-200);
-      /* border-color: var(--mobile-border-900); */
+      border-color: var(--M-border-200);
+      /* border-color: var(--M-border-900); */
       transition: 0.08s;
    }
 

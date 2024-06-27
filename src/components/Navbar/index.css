@@ -48,8 +48,6 @@ nav {
    padding: 10px 20px;
    border: 1px solid var(--color-full);
    border-radius: 15px;
-   backdrop-filter: blur(15px);
-   background-color: transparent;
    box-shadow: var(--shadow);
 }
 
@@ -121,7 +119,7 @@ nav {
 
    .Navbar {
       max-width: 80%;
-      border-color: var(--mobile-color-full);
+      border-color: var(--M-color-full);
       align-items: center;
       position: relative;
    }
@@ -168,11 +166,12 @@ nav {
       font-size: 14px;
       text-align: center;
       padding: 5px 0 5px 0;
+      color: var(--not-active-M);
    }
 
    .nav_links a.active {
       text-decoration: none;
-      color: var(--active);
+      color: var(--active-M);
       background-color: var(--active-background);
    }
 

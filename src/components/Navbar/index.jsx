@@ -28,7 +28,7 @@ function Index() {
 
   return (
     <nav ref={menuRef}>
-      <div className='Navbar'>
+      <div className='Navbar blur'>
         <div className='nav_title'>
           <Link to='/'>{ArthurSant}</Link>
         </div>
@@ -37,7 +37,7 @@ function Index() {
           <span className='bar'></span>
           <span className='bar'></span>
         </div>
-        <div className={`nav_links ${isOpen ? 'open' : ''}`}>
+        <div className={`blur nav_links ${isOpen ? 'open' : ''}`}>
           <ScrollLink
             to='Home'
             activeClass='active'

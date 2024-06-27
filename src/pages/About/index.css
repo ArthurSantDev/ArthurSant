@@ -67,7 +67,7 @@
 
    .back {
       max-width: 100%;
-      background-image: var(--image-mobile);
+      background-image: var(--image-M);
       background-attachment: local;
       border-radius: 20px;
    }
@@ -104,7 +104,7 @@
       width: 220px;
       margin: 0 0px 0 0;
       border-radius: 20px;
-      border: 0px solid var(--mobile-border-200);
+      border: 0px solid var(--M-border-200);
    }
 
    .about_text {

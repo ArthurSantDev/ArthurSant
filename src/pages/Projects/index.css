@@ -244,9 +244,9 @@
       gap: 5px;
       font-size: 13px;
       font-weight: 500;
-      border-color: var(--mobile-button);
+      border-color: var(--M-button);
       background-color: var(--button-back);
-      color: var(--mobile-button);
+      color: var(--M-button);
       transition: 0.07s;
    }
    
