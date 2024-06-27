@@ -9,8 +9,8 @@
   background: linear-gradient(to right, #01000f, #01000f, #01000f, #000d22);
   --background: #01000f;
   
-  --image: url('/public/patternDark.png');
-  --image-mobile: url('/public/patternDarkMobile.png');
+  --image: url('/public/patternDarkr.png');
+  --image-mobile: url('/public/patternDarkM.png');
 
   --color-full: #20adff;
   --border: #377dff67;
@@ -25,12 +25,13 @@
 
   --project: linear-gradient(to top, #00091a, #002652);
 
-  --mobile-color-full: #20adff;
+  --mobile-color-full: #20a6ff;
   --mobile-button: #20a6ffce;
   --mobile-border-100: #20a6ffbb;
   --mobile-border-200: #20a6ff86;
 
-  --active: #377dff8f;
+  --active: #20adff;
+  --not-active: #377dffd0;
   --active-background: #20a6ff69;
   --active-nav-background: linear-gradient(to top, #00091a, #002652);
 
@@ -57,8 +58,8 @@
     background: linear-gradient(to right, #f8f8f8, #f8f8f8, #f8f8f8, #f1f1f1);
     --background: #f8f8f8;
 
-    --image: url('/public/patternLight.png');
-    --image-mobile: url('/public/patternLightMobile.png');
+    --image: url('/public/patternLightr.png');
+    --image-mobile: url('/public/patternLightM.png');
     
     --color-full: #646cff;
     --border: #b3b7ff;
@@ -79,6 +80,7 @@
     --mobile-border-200: #969bff93;
 
     --active: #000dff;
+    --not-active: #646cffda;
     --active-background: #d6d7ff;
     --active-nav-background: #f8f8f8;
     
@@ -170,6 +172,8 @@ h1, h2, h3, p, a, svg, img {
 
 .shadow {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}.shadow:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 button {

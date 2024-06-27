@@ -28,7 +28,7 @@ function Index() {
 
   return (
     <nav ref={menuRef}>
-      <div className='Navbar shadow'>
+      <div className='Navbar'>
         <div className='nav_title'>
           <Link to='/'>{ArthurSant}</Link>
         </div>

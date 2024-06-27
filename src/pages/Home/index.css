@@ -13,8 +13,8 @@
    .skill:hover {
    border: 1.5px solid var(--color-full);
    background-color: var(--back-hover);
-   transform: translateY(-5px);
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+   transform: translateY(-3px);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
    }
 
    .skill a:hover {

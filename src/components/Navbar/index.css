@@ -5,10 +5,10 @@
       width: 0%;
       height: 2px;
       left: 0;
-      bottom: 0;
+      bottom: 2px;
       position: absolute;
       background-color: var(--color-full);
-      transition: 0.2s;
+      transition: 0.23s;
    }
    
    .nav_links a:hover::after {
@@ -39,6 +39,7 @@ nav {
    border-radius: 15px;
    backdrop-filter: blur(15px);
    background-color: transparent;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .nav_title {
@@ -62,6 +63,7 @@ nav {
    margin-right: 0px;
    padding: 5px;
    user-select: none;
+   color: var(--not-active);
 }
 
 .nav_link_btn {
@@ -167,7 +169,7 @@ nav {
 
    .nav_links a.active {
       text-decoration: none;
-      color: var(--hover-100);
+      color: var(--active);
       background-color: var(--active-background);
    }
 
