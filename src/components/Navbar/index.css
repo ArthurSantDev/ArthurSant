@@ -1,7 +1,18 @@
 /* Estilos Gerais */
 @media (min-width: 500px) {
-   .Navbar a:hover {
-      color: var(--active);
+   .nav_links a::after{
+      content: '';
+      width: 0%;
+      height: 2px;
+      left: 0;
+      bottom: 0;
+      position: absolute;
+      background-color: var(--color-full);
+      transition: 0.2s;
+   }
+   
+   .nav_links a:hover::after {
+      width: 100%;
    }
 }
 
@@ -75,8 +86,14 @@ nav {
    background-color: var(--color-full);
 }
 
+.nav_links a {
+   transition: 0.3s;
+   position: relative;
+}
+
 .nav_links a.active {
    color: var(--active);
+   transition: 0.3s;
 }
 
 @media (max-width: 500px) {
@@ -150,6 +167,7 @@ nav {
 
    .nav_links a.active {
       text-decoration: none;
+      color: var(--hover-100);
       background-color: var(--active-background);
    }
 

@@ -10,7 +10,7 @@
   --background: #01000f;
   
   --image: url('/public/patternDark.png');
-  --image-mobile: url('/public/patternDarkMobile.png');
+  --image-mobile: url('/public/patternDarkMobileLong.png');
 
   --color-full: #20adff;
   --border: #377dff67;
@@ -30,7 +30,7 @@
   --mobile-border-100: #20a6ffbb;
   --mobile-border-200: #20a6ff86;
 
-  --active: #9bdaff;
+  --active: #377dff8f;
   --active-background: #20a6ff69;
   --active-nav-background: linear-gradient(to top, #00091a, #002652);
 
@@ -58,7 +58,7 @@
     --background: #f8f8f8;
 
     --image: url('/public/patternLight.png');
-    --image-mobile: url('/public/patternLightMobile.png');
+    --image-mobile: url('/public/patternLightMobileLong.png');
     
     --color-full: #646cff;
     --border: #b3b7ff;

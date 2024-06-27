@@ -52,6 +52,7 @@
 @media (max-width: 500px) {
    .back {
       background-image: var(--image-mobile);
+      background-attachment:local;
       border-radius: 20px;
    }
    
