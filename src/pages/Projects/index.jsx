@@ -1,21 +1,25 @@
 import { BiPlus } from "react-icons/bi"; 
 import { Link } from 'react-router-dom'
 import './index.css'
+import '../../Global/Global.css'
 
 import { FaGithubAlt } from "react-icons/fa"; 
 import { IoMdEyeOff } from "react-icons/io"; 
 import { IoMdEye } from "react-icons/io"; 
+
+const one = '<';
+const two = ' />';
 
 const index = () => {
   return (
     <div id='Projects' className='container'>
         <section className="projects">
             <h1 className='Title'>
-                My best projects
+                Best Projects
             </h1> 
 
-            <div class="project  shadow">
-                    <div class="project-about">
+            <div class="project appear">
+                <div class="project-about">
                     <div>
                         <h2 class="att">Nike Store</h2>
                         <p>
@@ -30,14 +34,14 @@ const index = () => {
                         <img src="/assets/stacks/tailwind.svg"/>
                         <img src="/assets/stacks/github.svg"/>
                     </div>
-                    <div className='about-buttons'>
-                        <div class="project-link github-btn">
+                    <div className='button-project-section'>
+                        <div class="button-project github-btn">
                             <a href=" https://github.com/ArthurSantDev/Nike " target='_blank'>
                                 <FaGithubAlt />
                                 <p>Github</p>
                             </a>
                         </div>
-                        <div class="project-link deploy-btn">
+                        <div class="button-project deploy-btn">
                             <a href="https://nike-arthur.vercel.app/" target='_blank'>
                                 <IoMdEye />
                                 <p>Deploy</p>
@@ -50,7 +54,7 @@ const index = () => {
                 </div>
             </div>
 
-            <div class="project shadow">
+            <div class="project appear">
                 <div class="project-about">
                     <div>
                         <h2 class="att">Mern.In</h2>
@@ -69,14 +73,14 @@ const index = () => {
                         <img src="/assets/stacks/mongodb.svg"/>
                         <img src="/assets/stacks/express.svg"/>
                     </div>
-                    <div className='about-buttons'>
-                    <div class="project-link github-btn">
+                    <div className='button-project-section'>
+                    <div class="button-project github-btn">
                         <a href=" https://github.com/ArthurSantDev/Mern.In " target='_blank'>
                             <FaGithubAlt />
                             <p>Github</p>
                         </a>
                     </div>
-                    <div class="project-link deploy-btn cant-btn">
+                    <div class="button-project deploy-btn cant-btn">
                         <a target='_blank'>
                             <IoMdEyeOff />
                             <p>Deploy</p>
@@ -89,7 +93,7 @@ const index = () => {
                 </div>
             </div>
 
-            <div class="project shadow">
+            <div class="project appear">
                 <div class="project-about">
                     <div>
                         <h2 class="att">HighTrip</h2>
@@ -105,14 +109,14 @@ const index = () => {
                         <img src="/assets/stacks/tailwind.svg"/> 
                         <img src="/assets/stacks/github.svg"/>
                     </div>
-                    <div className='about-buttons'>
-                        <div class="project-link github-btn">
+                    <div className='button-project-section'>
+                        <div class="button-project github-btn">
                             <a href="https://github.com/ArthurSantDev/HighTrip" target='_blank'>
                                 <FaGithubAlt />
                                 <p>Github</p>
                             </a>
                         </div>
-                        <div class="project-link deploy-btn">
+                        <div class="button-project deploy-btn">
                             <a href="https://hightrip.vercel.app/" target='_blank'>
                                 <IoMdEye />
                                 <p>Deploy</p>
@@ -127,7 +131,7 @@ const index = () => {
         </section>
         
         <Link to='projects'>
-            <button className="shadow">
+            <button className="ButtonPage shadow">
                <i><BiPlus /></i> SEE MORE PROJECTS 
             </button>
         </Link>

@@ -84,12 +84,14 @@
 }
 
 @media (max-width: 500px) {
+   
    .skill:active {
       border: 1.5px solid var(--primary);
       background: var(--back-hover);
       transform: translateY(-5px);
       box-shadow: var(--shadow-hover);
    }
+   /* ACTIVE AND HOVER */
 
    .skills_container {
       display: flex;

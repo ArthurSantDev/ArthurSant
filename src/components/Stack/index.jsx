@@ -32,7 +32,7 @@ import './index.css'
 const index = () => {
   return (
    <div className="center column">
-      <div className="stacks-sections">
+      <div className="stacks-sections appear">
          <h2 className="frontend">
             Front End <i>Skills</i>
          </h2>
@@ -96,7 +96,7 @@ const index = () => {
          </div>
       </div>
 
-      <div className="stacks-sections">
+      <div className="stacks-sections appear">
          <h2 className="backend">
             Back End <i>Skills</i>
          </h2>

@@ -1,11 +1,11 @@
 @media (min-width: 500px) {
-   .about_img img:hover {
+   .about-img img:hover {
       transform: translateY(-3px);
       box-shadow: var(--shadow-hover);
    }
 }
 
-.back {
+.background-image {
    max-width: 100%;
    min-height: calc(100vh - 40px); /* Ocupa a altura total da visualização */
    background-image: var(--image);
@@ -20,7 +20,7 @@
    padding-left: 75px;
 }
 
-.about_grid {
+.about-grid {
    display: grid;
    align-items: center;
    justify-content: center;
@@ -33,39 +33,40 @@
    gap: 0;
 }
 
-.about_img {
+.about-img {
    display: flex;
    align-items: center;
    justify-content: center;
    width: 500px;
 }
-.about_img img {
+.about-img img {
    width: 250px;
    margin: 0 50px 0 0;
    border-radius: 20px;
-   border: 1px solid var(--primary);
+   border: 1px solid var(--border);
    box-shadow: var(--shadow);
    transition: 0.2s;
 }
 
-.about_text {
+.about-text {
    width: 500px;
    margin-right: 90px;
    padding: 5px;
 }
 
-.about_text p {
+.about-text p {
    font-size: 16.2px;
    font-weight: 500;
 }
 
 @media (max-width: 500px) {
-   .about_img img:active {
+   .about-img img:active {
       transform: translateY(-3px);
       box-shadow: var(--shadow-hover);
    }
+   /* ACTIVE AND HOVER */
 
-   .back {
+   .background-image {
       max-width: 100%;
       background-image: var(--image-M);
       background-attachment: local;
@@ -73,7 +74,7 @@
       border: 0px;
    }
    
-   .about_grid {
+   .about-grid {
       display: grid;
       align-items: center;
       justify-content: center;
@@ -91,33 +92,33 @@
 
    #About .Title {
       width: 300px;
-      padding: 110px 20px 0;
+      padding: 110px 20px 0 25px;
    }
    
-   .about_img {
+   .about-img {
       display: flex;
       align-items: center;
       justify-content: center;
       width: 100%;
       margin-top: 15px;
    }
-   .about_img img {
+   .about-img img {
       width: 220px;
       margin: 0 0px 0 0;
       border-radius: 20px;
       border: 0px solid var(--border-200);
    }
 
-   .about_text {
+   .about-text {
       width: 100%;
       padding: 15px 0px 0;
       margin-left: 0;
    }
 
-   .about_text h2 {
+   .about-text h2 {
       padding: 0px 0px 0px 0px;
    }
-   .about_text p {
+   .about-text p {
       font-size: 16.3px;
       padding: 4px 0px 0px 0px;
    }

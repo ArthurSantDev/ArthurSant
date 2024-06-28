@@ -5,11 +5,11 @@
       box-shadow: var(--shadow-hover);
    }
 
-   .project-link a:hover {
+   .button-project a:hover {
       color: var(--hover-100);
       border-color: var(--primary);
       background-color: var(--hover-900);
-      transform: translateY(-3px);
+      transform: translateY(-2px);
       box-shadow: var(--shadow-hover);
    }
    .cant-btn a:hover {
@@ -28,13 +28,17 @@
    flex-direction: column;
 }
 
+#Projects .Title {
+   margin: 0 0 0 -30px;
+}
+
 .project {
    display: grid;
    grid-template-columns: 1fr 1fr;
    gap: 0px;
    width: 970px;
    padding: 30px;
-   margin: 30px 0;
+   margin: 20px 0;
    border-radius: 12px;
    border: 1px solid var(--project-border);
    background: var(--project);
@@ -90,7 +94,7 @@
    border-radius: 0;
 }
 
-.about-buttons{
+.button-project-section {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -98,13 +102,13 @@
    gap: 15px;
 }
 
-.project-link {
+.button-project {
    display: flex;
    justify-content: center;
    padding: 5px 0;
 }
 
-.project-link a {
+.button-project a {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -123,7 +127,7 @@
    transition: 0.2s;
 }
 
-.project-link p {
+.button-project p {
    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
    font-size: 14px;
    margin-bottom: 1.3px;
@@ -144,24 +148,15 @@
    text-decoration: line-through;
 }
 
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 500px) {
+
    .project:active {
       border-color: var(--primary);
       transform: translateY(0px);
       box-shadow: var(--shadow-hover);
    }
 
-   .project-link a:active {
+   .button-project a:active {
       color: var(--primary);
       border: 1px solid var(--primary);
       background-color: var(--hover-900);
@@ -175,14 +170,12 @@
       text-decoration: line-through;
       cursor: not-allowed;
    }
-/* ///////////////////////////////////// */
+   /* ACTIVE AND HOVER */
 
-   #Projects {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+   #Projects .Title {
+      margin: 0 0 -10px 0;
    }
-   
+
    .project {
       display: grid;
       grid-template-columns: 1fr;
@@ -230,15 +223,15 @@
       margin: 20px 5px;
    }
    
-   .about-buttons{
+   .button-project-section{
       gap: 10px;
    }
    
-   .project-link {
+   .button-project {
       padding: 5px 0;
    }
    
-   .project-link a {
+   .button-project a {
       width: 145px;
       height: 40px;
       gap: 5px;
@@ -250,12 +243,12 @@
       transition: 0.07s;
    }
    
-   .project-link p {
+   .button-project p {
       font-size: 14px;
       margin-bottom: 0.3px;
    }
    
-   .about-buttons {
+   .button-project-section {
       margin: 0px 0px -5px 0px;
    }
 }

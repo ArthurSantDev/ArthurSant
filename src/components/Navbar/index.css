@@ -1,6 +1,6 @@
 /* Estilos Gerais */
 @media (min-width: 500px) {
-   .nav_links a::after{
+   .nav-links a::after{
       content: '';
       width: 0%;
       height: 2px;
@@ -11,7 +11,7 @@
       transition: 0.23s;
    }
 
-   .nav_links a.active::after{
+   .nav-links a.active::after{
       content: '';
       width: 0%;
       height: 2px;
@@ -22,7 +22,7 @@
       transition: 0.23s;
    }
    
-   .nav_links a:hover::after {
+   .nav-links a:hover::after {
       width: 100%;
    }
 }
@@ -47,22 +47,39 @@ nav {
    height: 50px;
    padding: 10px 20px;
    border: 1px solid var(--primary);
+   background-color: transparent;
+   backdrop-filter: blur(15px);
    border-radius: 15px;
    box-shadow: var(--shadow);
 }
 
-.nav_title a {
+.toggleMenu {
+   display: none;
+   flex-direction: column;
+   cursor: pointer;
+   padding: 5px;
+   margin-right: -5px;
+}
+
+.toggleMenu .bar {
+   width: 25px;
+   height: 2px;
+   margin: 2.5px;
+   background-color: var(--primary);
+}
+
+.nav-logo a {
    font-size: 20px;
    color: var(--primary);
 }
 
-.nav_links {
+.nav-links {
    display: flex;
    justify-content: space-around;
    transition: max-height 0.3s ease;
 }
 
-.nav_links a {
+.nav-links a {
    font-size: 13px;
    margin-left: 0px;
    margin-right: 0px;
@@ -71,42 +88,29 @@ nav {
    color: var(--not-active);
 }
 
-.nav_link_btn {
+.nav-link-btn {
    padding: 5px 8px;
    border: 1px solid aquamarine;
    border-radius: 8px;
    background-color: aquamarine;
 }
 
-.nav_toggle {
-   display: none;
-   flex-direction: column;
-   cursor: pointer;
-   padding: 5px;
-   margin-right: -5px;
-}
-
-.nav_toggle .bar {
-   width: 25px;
-   height: 2px;
-   margin: 2.5px;
-   background-color: var(--primary);
-}
-
-.nav_links a {
+.nav-links a {
    transition: 0.3s;
    position: relative;
 }
 
-.nav_links a.active {
+.nav-links a.active {
    color: var(--active);
    transition: 0.3s;
 }
 
 @media (max-width: 500px) {
+
    .Navbar a:active {
       color: var(--hover-100);
    }
+   /* ACTIVE AND HOVER */
 
    nav {
       display: flex;
@@ -124,7 +128,11 @@ nav {
       position: relative;
    }
 
-   .nav_links {
+   .toggleMenu {
+      display: flex;
+   }
+
+   .nav-links {
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -144,7 +152,7 @@ nav {
       transition: 0.4s;
    }
 
-   .nav_links a {
+   .nav-links a {
       width: 95%;
       font-size: 14px;
       text-align: center;
@@ -152,7 +160,7 @@ nav {
       border-radius: 10px;
    }
 
-   .nav_links.open {
+   .nav-links.open {
       top: 75px;
       right: 0px;
       width: 100%;
@@ -161,7 +169,7 @@ nav {
       opacity: 1;
    }
 
-   .nav_links.open a {
+   .nav-links.open a {
       width: 95%;
       font-size: 14px;
       text-align: center;
@@ -169,13 +177,9 @@ nav {
       color: var(--not-active-M);
    }
 
-   .nav_links a.active {
+   .nav-links a.active {
       text-decoration: none;
       color: var(--active-M);
       background-color: var(--active-background);
-   }
-
-   .nav_toggle {
-      display: flex;
    }
 }

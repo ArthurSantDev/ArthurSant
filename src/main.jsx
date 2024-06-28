@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './Global/Global.css'
+import './Global/Preset.css'
 
 import App from './App.jsx'
 import Error from './routes/Error'

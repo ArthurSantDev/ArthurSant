@@ -1,8 +1,10 @@
-import React from 'react'
+import './index.css'
 
 const index = () => {
   return (
-    <h1>Error 404</h1>
+    <div className='Error'>
+      <h1>404</h1>
+    </div>
   )
 }
 

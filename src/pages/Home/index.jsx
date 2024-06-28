@@ -4,27 +4,22 @@ import { MdEmail } from "react-icons/md";
 import { AiFillLinkedin } from "react-icons/ai"; 
 
 import './index.css'
-import Stacks from '../../components/Stacks'
+import AnimatedText from '../../components/Anim'
+import ConstStacks from '../../components/Stacks'
 import Skills from '../../components/Skills'
 
 const index = () => {
   return (
     <div id='Home'>
       <div id="Home-container">
-        <div>
-          <div className="profile-section">
-            <div className='profile'>
-              <div class="animated-text">
-                  <h3>Olá, meu nome é</h3>
-                  <h1>Arthur Sant</h1>
-                  <h2>
-                      e sou 
-                      <span class="typing"></span>
-                  </h2>
-              </div>
+        <div className="profile-section">
+          <div className='profile'>
+
+            <AnimatedText />
+
               <div class="social shadow">
                   <a href="https://www.linkedin.com/in/devarthursant" target="_blank">
-                  <AiFillLinkedin className='icon'/>
+                    <AiFillLinkedin className='icon'/>
                   </a>
                   <a href="https://github.com/ArthurSantDev" target="_blank">
                     <AiFillGithub className='icon'/>
@@ -37,12 +32,13 @@ const index = () => {
                   </a>
               </div>
 
-              <Stacks />
-            </div>
+            <ConstStacks />
+
           </div>
         </div>
 
         <Skills />
+
       </div>
     </div>
   )

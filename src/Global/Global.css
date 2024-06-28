@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
-/* //////////////////////////////////// COLOR VARIABLES //////////////////////////////////////// */
 :root {
   color-scheme: light dark;
 
-/* Base standards */
+/* BASE STANDARTS */
   color: #ffffffde;
   --color: #ffffffde;
   background: linear-gradient(to right, #01000f, #01000f, #01000f, #01000f, #000e25);
   --background: #01000f;  
 
   --shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-  --shadow-hover: 5px 5px 10px rgba(0, 0, 0, 1);
+  --shadow-hover: 5px 5px 10px rgba(0, 0, 0, 1.1);
 
-/* About Images */
+/* ABOUT IMAGES */
   --image: url('/public/patternDark.png');
-  --image-M: url('/public/patternDarkMt.png');
+  --image-M: url('/public/patternDarkM.png');
 
-/* Main colors */
+/* MAIN COLORS */
   --primary: #20adff;
   --primary-100: #20a6ff;
   --primary-900: #20a6ff86;
@@ -30,7 +29,7 @@
   --border-200: #20a6ff86;
 
   --back: #000b1f;
-  --back-hover: #000f2b;
+  --back-hover: #001131;
   
   --button: #47d4ff7a;
   --button-M: #20a6ffce;
@@ -38,11 +37,7 @@
   --cant: #cf3374;
   --cant-back: #5a0328;
 
-/* Project Colors */
-  --project: linear-gradient(to top, #00091a, #00244d);
-  --project-border: #0077ff;
-
-/* Navigation bar colors */
+/* NAVIGATION BAR */
   --active: #54c0ff;
   --active-M: #a6f2ff;
   --not-active: #20a6ffbb;
@@ -50,11 +45,19 @@
   --active-background: #20a6ff69;
   --active-nav-background: linear-gradient(to top, #000816, #003066);
 
-/* Skill box colors */
+/* PROJECTS */
+  --project: linear-gradient(to top, #00091a, #00244d);
+  --project-hover: linear-gradient(to top, #000f2b00, #003169);
+  --project-border: #0077ff;
+
+/* SKILL BOXES */
   --one: #7fd6ff;
   --two: #f325f3;
   --three: #c9eb0c;
   --four: #4be04b;
+
+/* COPY RIGHT */
+--copy: #ffffff73;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -67,7 +70,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-  /* Base standards */
+  /* BASE STANDARTS */
     color: #213547;
     --color: #213547;
     background: linear-gradient(to right, #f8f8f8, #f8f8f8, #f8f8f8, #f1f1f1);
@@ -76,12 +79,12 @@
     --shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
     --shadow-hover: 5px 5px 10px rgba(0, 0, 0, 0.35);
 
-  /* About Images */
+  /* ABOUT IMAGES */
     --image: url('/public/patternLight.png');
     --image-M: url('/public/patternLightM.png');
 
 
-  /* Main colors */
+  /* MAIN COLORS */
     --primary: #646cff; 
     --primary-100: #7e85ff;
     --primary-900: #7e85ff; 
@@ -100,12 +103,8 @@
     --button-back: #ffffff;    
     --cant: #cf3374;
     --cant-back: #fa9fc5;
-    
-  /* Project Colors */
-    --project:  linear-gradient(to top,  #f8f8f8, #e2e2e2);
-    --project-border: #646cff9d;
 
-  /* Navigation bar colors */
+  /* NAVIGATION BAR */
     --active: #000dff;
     --active-M: #1b27ff;
     --not-active: #646cffe1;
@@ -113,18 +112,24 @@
     --active-background: #e4e4e4;
     --active-nav-background: linear-gradient(to right, #f8f8f8, #f8f8f8, #ececec);
 
-  /* Skill box colors */
+  /* PROJECTS */
+    --project:  linear-gradient(to top,  #f8f8f8, #e2e2e2);
+    --project-hover:  linear-gradient(to top,  #f8f8f800, #eeeeee);
+    --project-border: #646cff9d;
+
+  /* SKILL BOXES */
     --one: #008cff;
     --two: #ac00ac;
     --three: #cfb313;
     --four: #11c911;
+
+  /* COPY RIGHT */
+    --copy: #8197aa;
   }
 }
 
-/* ///////////////////////////////////////////////////////////////////////////////// */
-
-
-
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
 
 * {
   scroll-behavior: smooth;
@@ -140,116 +145,16 @@ body {
   padding: 0;
   outline: none;
 }
-@media (max-width: 500px) {
-  body {
-    margin: 0;
-    padding: 0;
-  }
-}
-h1, h2, h3, p, a, svg, img {
-  user-select: none;
-}
 
-.container {
-  max-width: 1200px;
-  min-height: calc(100vh - 40px);
-  background-repeat: no-repeat;
-}
-@media (max-width: 500px) {
-  .container {
-    min-width: 100%;
-    max-width: 100%;
-  }
-}
-
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 1150px;
-}
-@media (max-width: 500px){
-  .center {
-    width: 100%;
-  }
-}
-
-.Title {
-  padding: 115px 0 0;
-  font-size: 36px;
+a {
+  font-weight: 500;
+  color: var(--primary);
+  text-decoration: none;
+  cursor: pointer;
+} a:hover {
   color: var(--primary);
 }
-@media (max-width: 500px) {
-  .Title {
-    padding: 110px 0 0;
-    font-size: 34px;
-    color: var(--primary-100);
-  }
-}
 
-.blur {
-  backdrop-filter: blur(15px);
-  background-color: transparent;
-}
-
-.border {
-  border: 2px solid var(--primary);
-}
-
-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 210px;
-  height: 45px;
-  gap: 5px;
-  font-size: 13px;
-  font-weight: 600;
-  border-radius: 50px;
-  border: 1px solid var(--button-M);
-  background-color: var(--button-back);
-  color: var(--button-M);
-  box-shadow: var(--shadow);
-  transition: 0.2s;
-}button:hover {
-  color: var(--hover-100);
-  border-color: var(--primary);
-  background-color: var(--hover-900);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-hover);
-}
-button i {
-  font-size: 20px;
-  margin: 0 -2px -4px -4px;
-}
-
-::-webkit-scrollbar {
-  width: 0px;
-}
-
- a {
-   font-weight: 500;
-   color: var(--primary);
-   text-decoration: inherit;
-   cursor: pointer;
- }
- a:hover {
-   color: var(--primary);
- }
-
-
-
-.UpDown {
-  animation: UpDown 3s infinite;
-}
-@keyframes UpDown {
-  0% {
-    transform: translateY(1px);
-  }
-  50% {
-    transform: translateY(-1px); /* Ajuste o valor conforme necessário */
-  }
-  100% {
-    transform: translateY(1px);
-  }
+h1, h2, h3, p, a, svg, img {
+  user-select: none;
 }
