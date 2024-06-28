@@ -88,6 +88,7 @@
 
    #About {
       height: 100%;
+      overflow-x: hidden;
    }
 
    #About .Title {
@@ -102,6 +103,7 @@
       width: 100%;
       margin-top: 15px;
    }
+
    .about-img img {
       width: 220px;
       margin: 0 0px 0 0;
