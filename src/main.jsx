@@ -1,13 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import './Global/Global.css'
-import './Global/Preset.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import './Global/Global.css';
+import './Global/Preset.css';
 
-import App from './App.jsx'
-import Error from './routes/Error'
-import Home from './routes/Home'
-import Projects from './routes/Projects'
+import App from './App';
+import Error from './routes/Error';
+import Home from './routes/Home';
+import Projects from './routes/Projects';
 
 const router = createBrowserRouter([
   {
@@ -17,18 +17,18 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home />
+        element: <Home />,
       },
       {
-        path: 'projects',
-        element: <Projects />
-      }
-    ]
+        path: '/projects',
+        element: <Projects />,
+      },
+    ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);

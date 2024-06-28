@@ -1,6 +1,6 @@
 @media (min-width: 500px) {
    .project:hover {
-      border-color: var(--hover-100);
+      border-color: var(--primary);
       transform: translateY(-0px);
       box-shadow: var(--shadow-hover);
    }
@@ -20,16 +20,17 @@
       cursor: not-allowed;
    }
 
-   .projectR {
+   .reverse {
       gap: 60px;
    }
 
-   .projectR .project-about {
+   .reverse .project-about {
       order: 2; 
    }
    
-   .projectR .project-img {
-      order: 1; 
+   .reverse .project-img {
+      order: 1;
+      margin-left: 5px; 
    }
 }
 
@@ -101,7 +102,7 @@
 
 .stack-icons img{
    width: 35px;
-   margin: 15px 5px;
+   margin: 20px 5px;
    border-radius: 0;
 }
 
@@ -162,7 +163,6 @@
 @media (max-width: 500px) {
 
    .project:active {
-      border-color: var(--primary);
       transform: translateY(0px);
       box-shadow: var(--shadow-hover);
    }
@@ -195,6 +195,8 @@
       padding: 23px 30px 30px 30px;
       margin: 20px 0;
       border-radius: 12px;
+      border-color: var(--project-border-M);
+      background: var(--project-M);
       transition: 0.2s;
    }
    

@@ -25,6 +25,10 @@
    .nav-links a:hover::after {
       width: 100%;
    }
+
+   .nav-logo a:hover {
+      color: var(--hover-100);
+   }
 }
 
 nav {
@@ -71,12 +75,13 @@ nav {
 .nav-logo a {
    font-size: 20px;
    color: var(--primary);
+   transition: 0.2s;
 }
 
 .nav-links {
    display: flex;
    justify-content: space-around;
-   transition: max-height 0.3s ease;
+   transition: 0.3s ease;
 }
 
 .nav-links a {

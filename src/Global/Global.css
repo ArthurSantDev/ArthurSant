@@ -46,9 +46,10 @@
   --active-nav-background: linear-gradient(to top, #000816, #003066);
 
 /* PROJECTS */
-  --project: linear-gradient(to top, #00091a, #00244d);
-  --project-hover: linear-gradient(to top, #000f2b00, #003169);
-  --project-border: #0077ff;
+  --project-border: #004fa8;
+  --project-border-M: #20adff;
+  --project: linear-gradient(to top, #000818, #001b41);
+  --project-M: linear-gradient(to top, #00091a, #00244d);
 
 /* SKILL BOXES */
   --one: #7fd6ff;
@@ -59,13 +60,13 @@
 /* COPY RIGHT */
 --copy: #ffffff73;
 
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+line-height: 1.5;
+font-weight: 400;
+font-synthesis: none;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 
 @media (prefers-color-scheme: light) {
@@ -113,9 +114,10 @@
     --active-nav-background: linear-gradient(to right, #f8f8f8, #f8f8f8, #ececec);
 
   /* PROJECTS */
-    --project:  linear-gradient(to top,  #f8f8f8, #e2e2e2);
-    --project-hover:  linear-gradient(to top,  #f8f8f800, #eeeeee);
     --project-border: #646cff9d;
+    --project-border-M: #646cff9d;
+    --project:  linear-gradient(to top,  #f8f8f8, #e2e2e2);
+    --project-M: linear-gradient(to top,  #f8f8f8, #e2e2e2);
 
   /* SKILL BOXES */
     --one: #008cff;
@@ -157,4 +159,8 @@ a {
 
 h1, h2, h3, p, a, svg, img {
   user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }

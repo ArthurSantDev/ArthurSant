@@ -1,5 +1,7 @@
+import { HiHome } from "react-icons/hi"; 
 import { Link } from 'react-router-dom'
 import '../../Global/Global.css'
+import '../../Global/Preset.css'
 import './index.css'
 
 import { FaGithubAlt } from "react-icons/fa"; 
@@ -14,7 +16,42 @@ const index = () => {
                 All Projects
             </h1> 
 
-            <div class="project shadow">
+            <div class="project reverse">
+                <div class="project-about">
+                    <div>
+                        <h2 class="att">Beats</h2>
+                        <p>
+                            Landing Page para os produtos e acessórios da marca Beats, possuindo animações de scroll e
+                            design responsivo para dispositivos móveis.
+                        </p>
+                    </div>
+                    <div class="stack-icons">
+                        <img src="/assets/stacks/javascript.svg"/>
+                        <img src="/assets/stacks/css.svg"/>
+                        <img src="/assets/stacks/html.svg"/>
+                        <img src="/assets/stacks/github.svg"/>
+                    </div>
+                    <div className='button-project-section'>
+                        <div class="button-project github-btn">
+                            <a href="https://github.com/ArthurSantDev/Beats" target='_blank'>
+                                <FaGithubAlt />
+                                <p>Github</p>
+                            </a>
+                        </div>
+                        <div class="button-project deploy-btn">
+                            <a href="https://beats-arthur.vercel.app/" target='_blank'>
+                                <IoMdEye />
+                                <p>Deploy</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img src="/assets/projects/Beats.png"/>
+                </div>
+            </div>
+
+            <div class="project">
                 <div class="project-about">
                     <div>
                         <h2 class="att">Mern.In</h2>
@@ -33,14 +70,14 @@ const index = () => {
                         <img src="/assets/stacks/mongodb.svg"/>
                         <img src="/assets/stacks/express.svg"/>
                     </div>
-                    <div className='about-buttons'>
-                    <div class="project-link github-btn">
+                    <div className='button-project-section'>
+                    <div class="button-project github-btn">
                         <a href=" https://github.com/ArthurSantDev/Mern.In " target='_blank'>
                             <FaGithubAlt />
                             <p>Github</p>
                         </a>
                     </div>
-                    <div class="project-link deploy-btn cant-btn">
+                    <div class="button-project deploy-btn cant-btn">
                         <a target='_blank'>
                             <IoMdEyeOff />
                             <p>Deploy</p>
@@ -54,7 +91,7 @@ const index = () => {
             </div>
 
 
-            <div class="project  shadow">
+            <div class="project reverse">
                     <div class="project-about">
                     <div>
                         <h2 class="att">Nike Store</h2>
@@ -70,14 +107,14 @@ const index = () => {
                         <img src="/assets/stacks/tailwind.svg"/>
                         <img src="/assets/stacks/github.svg"/>
                     </div>
-                    <div className='about-buttons'>
-                        <div class="project-link github-btn">
+                    <div className='button-project-section'>
+                        <div class="button-project github-btn">
                             <a href=" https://github.com/ArthurSantDev/Nike " target='_blank'>
                                 <FaGithubAlt />
                                 <p>Github</p>
                             </a>
                         </div>
-                        <div class="project-link deploy-btn">
+                        <div class="button-project deploy-btn">
                             <a href="https://nike-arthur.vercel.app/" target='_blank'>
                                 <IoMdEye />
                                 <p>Deploy</p>
@@ -91,7 +128,7 @@ const index = () => {
             </div>
 
 
-            <div class="project shadow">
+            <div class="project">
                 <div class="project-about">
                     <div>
                         <h2 class="att">HighTrip</h2>
@@ -107,14 +144,14 @@ const index = () => {
                         <img src="/assets/stacks/tailwind.svg"/> 
                         <img src="/assets/stacks/github.svg"/>
                     </div>
-                    <div className='about-buttons'>
-                        <div class="project-link github-btn">
+                    <div className='button-project-section'>
+                        <div class="button-project github-btn">
                             <a href="https://github.com/ArthurSantDev/HighTrip" target='_blank'>
                                 <FaGithubAlt />
                                 <p>Github</p>
                             </a>
                         </div>
-                        <div class="project-link deploy-btn">
+                        <div class="button-project deploy-btn">
                             <a href="https://hightrip.vercel.app/" target='_blank'>
                                 <IoMdEye />
                                 <p>Deploy</p>
@@ -126,45 +163,9 @@ const index = () => {
                     <img src="/assets/projects/HighTrip.png"/>
                 </div>
             </div>
-            
-
-            <div class="project shadow">
-                <div class="project-about">
-                    <div>
-                        <h2 class="att">Beats</h2>
-                        <p>
-                            Landing Page para os produtos e acessórios da marca Beats, possuindo animações de scroll e
-                            design responsivo para dispositivos móveis.
-                        </p>
-                    </div>
-                    <div class="stack-icons">
-                        <img src="/assets/stacks/javascript.svg"/>
-                        <img src="/assets/stacks/css.svg"/>
-                        <img src="/assets/stacks/html.svg"/>
-                        <img src="/assets/stacks/github.svg"/>
-                    </div>
-                    <div className='about-buttons'>
-                        <div class="project-link github-btn">
-                            <a href="https://github.com/ArthurSantDev/Beats" target='_blank'>
-                                <FaGithubAlt />
-                                <p>Github</p>
-                            </a>
-                        </div>
-                        <div class="project-link deploy-btn">
-                            <a href="https://beats-arthur.vercel.app/" target='_blank'>
-                                <IoMdEye />
-                                <p>Deploy</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-img">
-                    <img src="/assets/projects/Beats.png"/>
-                </div>
-            </div>
 
 
-            <div class="project shadow">
+            <div class="project reverse">
                 <div class="project-about">
                     <div>
                         <h2 class="att">To Do List</h2>
@@ -180,14 +181,14 @@ const index = () => {
                         <img src="/assets/stacks/css.svg"/>
                         <img src="/assets/stacks/github.svg"/>
                     </div>
-                    <div className='about-buttons'>
-                        <div class="project-link github-btn">
+                    <div className='button-project-section'>
+                        <div class="button-project github-btn">
                             <a href="https://github.com/ArthurSantDev/ToDoList" target='_blank'>
                                 <FaGithubAlt />
                                 <p>Github</p>
                             </a>
                         </div>
-                        <div class="project-link deploy-btn">
+                        <div class="button-project deploy-btn">
                             <a href="https://todolist-arthur.vercel.app/" target='_blank'>
                                 <IoMdEye />
                                 <p>Deploy</p>
@@ -202,11 +203,11 @@ const index = () => {
         </section>
 
         <Link to='/'>
-            <button className='ButtonPage'>
-                HOME PAGE
+            <button className='back-to-home button'>
+                <i className="home-icon"><HiHome /></i>
             </button>
         </Link>
-        
+
     </div>
   )
 }
