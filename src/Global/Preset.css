@@ -21,7 +21,7 @@
 }
  
 .Title {
-   padding: 115px 0 0;
+   padding: 100px 0 0;
    font-size: 36px;
    color: var(--primary);
 } @media (max-width: 500px) {
@@ -35,7 +35,7 @@
 .appear{
    animation: appear 2s;
    animation-timeline: view();
-   animation-range: cover 0% cover 19%
+   animation-range: cover 0% cover 22%
 }
 @keyframes appear {
    from {
@@ -51,7 +51,7 @@
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
-button {
+.button {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -66,16 +66,21 @@ button {
    color: var(--button-M);
    box-shadow: var(--shadow);
    transition: 0.2s;
-} button:hover {
+} .button:hover {
    color: var(--hover-100);
    border-color: var(--primary);
    background-color: var(--hover-900);
    transform: translateY(-2px);
    box-shadow: var(--shadow-hover);
 }
-button i {
+.button i {
    font-size: 20px;
    margin: 0 -2px -4px -4px;
+}
+@media (max-width: 500px) {
+   .button {
+      margin: 10px 0 0 0;
+   }
 }
  
 ::-webkit-scrollbar {
@@ -145,6 +150,7 @@ button i {
    width: 210px;
    height: 45px;
    gap: 5px;
+   margin: 15px 0 0 0;
    font-size: 13px;
    font-weight: 600;
    border-radius: 50px;

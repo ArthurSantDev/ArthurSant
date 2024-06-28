@@ -6,7 +6,7 @@
 /* BASE STANDARTS */
   color: #ffffffde;
   --color: #ffffffde;
-  background: linear-gradient(to right, #01000f, #01000f, #01000f, #01000f, #000e25);
+  background: linear-gradient(to right, #01000f, #01000f, #01000f, #01000f, #00122e);
   --background: #01000f;  
 
   --shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);

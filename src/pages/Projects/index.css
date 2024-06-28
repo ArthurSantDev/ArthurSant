@@ -19,6 +19,18 @@
       text-decoration: line-through;
       cursor: not-allowed;
    }
+
+   .projectR {
+      gap: 60px;
+   }
+
+   .projectR .project-about {
+      order: 2; 
+   }
+   
+   .projectR .project-img {
+      order: 1; 
+   }
 }
 
 
@@ -35,7 +47,6 @@
 .project {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   gap: 0px;
    width: 970px;
    padding: 30px;
    margin: 20px 0;

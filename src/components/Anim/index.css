@@ -102,6 +102,7 @@
   .animated-text span {
       position: relative;
       color: var(-color-M);
+      margin-left: 3px;
   }
   
   .animated-text span::before{
@@ -114,7 +115,7 @@
       position: absolute;
       width: calc(100% + 5px);
       height: 110%;
-      right: -8px;
+      right: 0-4px;
       background: var(--background); /* Precisa ser da cor do fundo */
   }
 }

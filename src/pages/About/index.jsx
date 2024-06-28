@@ -10,10 +10,10 @@ const index = () => {
          </h1>
          <div className='center'>
             <div className='about-grid'>
-               <div className='about-img appear'>
+               <div className='about-img'>
                   <img src="/profile.png" className='shadow' />
                </div>
-               <div className='about-text appear'>
+               <div className='about-text'>
                   <h2>
                      Olá mundo!
                   </h2>

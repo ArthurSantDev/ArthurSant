@@ -18,7 +18,7 @@ const index = () => {
                 Best Projects
             </h1> 
 
-            <div class="project appear">
+            <div class="project projectR">
                 <div class="project-about">
                     <div>
                         <h2 class="att">Nike Store</h2>
@@ -54,7 +54,7 @@ const index = () => {
                 </div>
             </div>
 
-            <div class="project appear">
+            <div class="project">
                 <div class="project-about">
                     <div>
                         <h2 class="att">Mern.In</h2>
@@ -93,7 +93,7 @@ const index = () => {
                 </div>
             </div>
 
-            <div class="project appear">
+            <div class="project projectR">
                 <div class="project-about">
                     <div>
                         <h2 class="att">HighTrip</h2>
@@ -131,7 +131,7 @@ const index = () => {
         </section>
         
         <Link to='projects'>
-            <button className="ButtonPage shadow">
+            <button className="ButtonPage button shadow">
                <i><BiPlus /></i> SEE MORE PROJECTS 
             </button>
         </Link>

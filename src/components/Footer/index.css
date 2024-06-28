@@ -11,6 +11,11 @@
       color: var(--primary);
       transform: translateY(-3px);
    }
+
+   .footer-copy a:hover {
+      color: var(--color);
+      text-decoration: underline;
+   }
 }
 
 #Footer {
@@ -48,6 +53,7 @@
 .footer-copy a {
    font-size: 12px;
    color: var(--copy);
+   transition: 0.2s;
 }
 
 @media (max-width: 500px) {
