@@ -6,7 +6,6 @@ const index = () => {
   return (
     <div>
       <Home />
-      <About />
       <Projects />
     </div>
   )
