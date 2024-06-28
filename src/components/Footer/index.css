@@ -3,12 +3,12 @@
       color: var(--color);
    }
    .footer_links:hover {
-      border-color: var(--color-full);
+      border-color: var(--primary);
       background-color: var(--back-hover);
       box-shadow: var(--shadow-hover);
    }
    .footer_link:hover {
-      color: var(--color-full);
+      color: var(--primary);
       transform: translateY(-3px);
    }
 }

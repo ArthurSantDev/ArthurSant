@@ -1,7 +1,7 @@
 @media (min-width: 500px) {
    .stack-box:hover {
-      color: var(--color-full);
-      border-color: var(--color-full);
+      color: var(--primary);
+      border-color: var(--primary);
       background-color: var(--back-hover);
       transform: translateY(-5px);
       box-shadow: var(--shadow-hover);
@@ -22,14 +22,14 @@
 }
 
 .frontend {
-   color: var(--color-full);
+   color: var(--primary);
    font-size: 32px;
    font-weight: 500;
    padding: 50px 0 10px 10px;
 }
 
 .backend {
-   color: var(--color-full);
+   color: var(--primary);
    font-size: 32px;
    font-weight: 500;
    padding: 15px 0 10px 10px;
@@ -85,25 +85,25 @@
 
 @media (max-width: 500px) {
    .stack-box:active {
-      color: var(--color-full);
-      border-color: var(--color-full);
+      color: var(--primary);
+      border-color: var(--primary);
       background: var(--back-hover);
       box-shadow: var(--shadow-hover);
       transform: translateY(-5px);
    }
 
    .frontend {
-      color: var(--M-color-full);
+      color: var(--primary-100);
       font-size: 32px;
       font-weight: 500;
-      padding: 40px 0 10px 30px;
+      padding: 40px 30px 10px 30px;
    }
    
    .backend {
-      color: var(--M-color-full);
+      color: var(--primary-100);
       font-size: 32px;
       font-weight: 500;
-      padding: 15px 0 10px 30px;
+      padding: 15px 30px 10px 30px;
    }
 
    .stacks-section {
@@ -118,7 +118,7 @@
       width: 140px;
       height: 120px;
       padding: 5px;
-      border-color: var(--M-border-100);
+      border-color: var(--border-100);
       transition: 0.07s;
    }
 

@@ -15,27 +15,28 @@
 
 /* About Images */
   --image: url('/public/patternDark.png');
-  --image-M: url('/public/patternDarkM.png');
+  --image-M: url('/public/patternDarkMt.png');
 
 /* Main colors */
-  --color-full: #20adff;  
-  --hover-100: #67edff;
-  --hover-200:  #005085;
+  --primary: #20adff;
+  --primary-100: #20a6ff;
+  --primary-900: #20a6ff86;
+
+  --hover-100: #7ae4ff;
+  --hover-900:  #005085;
 
   --border: #377dff67;
+  --border-100: #20a6ffbb;
+  --border-200: #20a6ff86;
+
   --back: #000b1f;
   --back-hover: #000f2b;
   
   --button: #47d4ff7a;
+  --button-M: #20a6ffce;
   --button-back: #00091a;  
   --cant: #cf3374;
   --cant-back: #5a0328;
-
-  --M-color-full: #20a6ff;
-  --M-button: #20a6ffce;
-  --M-border-100: #20a6ffbb;
-  --M-border-200: #20a6ff86;
-  
 
 /* Project Colors */
   --project: linear-gradient(to top, #00091a, #00244d);
@@ -81,23 +82,24 @@
 
 
   /* Main colors */
-    --color-full: #646cff;    
+    --primary: #646cff; 
+    --primary-100: #7e85ff;
+    --primary-900: #7e85ff; 
+
     --hover-100: #000dff;
-    --hover-200: #b9bdff;
+    --hover-900: #b9bdff;
 
     --border: #b3b7ff;
+    --border-100: #7e85ff; 
+    --border-200: #969bff93;
     --back: #f0f0f0;
     --back-hover: #f0f0f0;
 
     --button: #969cff;
+    --button-M: #8284ff;
     --button-back: #ffffff;    
     --cant: #cf3374;
     --cant-back: #fa9fc5;
-    
-    --M-color-full: #7e85ff;
-    --M-button: #8284ff;
-    --M-border-100: #7e85ff;
-    --M-border-200: #969bff93;
     
   /* Project Colors */
     --project:  linear-gradient(to top,  #f8f8f8, #e2e2e2);
@@ -108,8 +110,8 @@
     --active-M: #1b27ff;
     --not-active: #646cffe1;
     --not-active-M: #646cff;
-    --active-background: #d6d7ff;
-    --active-nav-background: linear-gradient(to right, #f8f8f8, #f8f8f8, #f1f1f1);
+    --active-background: #e4e4e4;
+    --active-nav-background: linear-gradient(to right, #f8f8f8, #f8f8f8, #ececec);
 
   /* Skill box colors */
     --one: #008cff;
@@ -175,13 +177,13 @@ h1, h2, h3, p, a, svg, img {
 .Title {
   padding: 115px 0 0;
   font-size: 36px;
-  color: var(--color-full);
+  color: var(--primary);
 }
 @media (max-width: 500px) {
   .Title {
     padding: 110px 0 0;
     font-size: 34px;
-    color: var(--M-color-full);
+    color: var(--primary-100);
   }
 }
 
@@ -191,7 +193,7 @@ h1, h2, h3, p, a, svg, img {
 }
 
 .border {
-  border: 2px solid var(--color-full);
+  border: 2px solid var(--primary);
 }
 
 button {
@@ -204,15 +206,15 @@ button {
   font-size: 13px;
   font-weight: 600;
   border-radius: 50px;
-  border: 1px solid var(--M-button);
+  border: 1px solid var(--button-M);
   background-color: var(--button-back);
-  color: var(--M-button);
+  color: var(--button-M);
   box-shadow: var(--shadow);
   transition: 0.2s;
 }button:hover {
   color: var(--hover-100);
-  border-color: var(--color-full);
-  background-color: var(--hover-200);
+  border-color: var(--primary);
+  background-color: var(--hover-900);
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -227,12 +229,12 @@ button i {
 
  a {
    font-weight: 500;
-   color: var(--color-full);
+   color: var(--primary);
    text-decoration: inherit;
    cursor: pointer;
  }
  a:hover {
-   color: var(--color-full);
+   color: var(--primary);
  }
 
 
