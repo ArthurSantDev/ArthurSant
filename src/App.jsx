@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 function App() {
   const { pathname } = useLocation();
 
+  // SCROLL TO TOP
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);

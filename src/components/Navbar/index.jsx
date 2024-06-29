@@ -33,7 +33,7 @@ function Index() {
 
         <div className='nav-logo'>
           
-          <ScrollLink to='Home' activeClass='active' spy={true} onClick={toggleMenu}>
+          <ScrollLink to='Home' activeClass='active' spy={true}>
             <Link to='/'>
               {logo}
             </Link>
@@ -51,7 +51,7 @@ function Index() {
           <ScrollLink
             to='Home'
             activeClass='active'
-            spy={true}
+            // spy={true}
             onClick={toggleMenu}
           >
             HOME
@@ -60,7 +60,7 @@ function Index() {
           <ScrollLink
             to='About'
             activeClass='active'
-            spy={true}
+            // spy={true}
             onClick={toggleMenu}
           >
             ABOUT
@@ -69,7 +69,7 @@ function Index() {
           <ScrollLink
             to='Projects'
             activeClass='active'
-            spy={true}
+            // spy={true}
             onClick={toggleMenu}
           >
             PROJECTS
@@ -78,7 +78,7 @@ function Index() {
           <ScrollLink
             to='Footer'
             activeClass='active'
-            spy={true}
+            // spy={true}
             onClick={toggleMenu}
           >
             CONTACTS

@@ -51,7 +51,7 @@
    width: 970px;
    padding: 30px;
    margin: 20px 0;
-   border-radius: 12px;
+   border-radius: 15px;
    border: 1px solid var(--project-border);
    background: var(--project);
    box-shadow: var(--shadow);

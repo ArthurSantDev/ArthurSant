@@ -1,7 +1,5 @@
 import { HiHome } from "react-icons/hi"; 
 import { Link } from 'react-router-dom'
-import '../../Global/Global.css'
-import '../../Global/Preset.css'
 import './index.css'
 
 import { FaGithubAlt } from "react-icons/fa"; 
