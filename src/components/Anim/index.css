@@ -87,13 +87,13 @@
       margin: 0px 0px 0px 2px;
   }
 
-  .animated-text > h1{
+  .animated-text > h1 {
       font-weight: 600;
       font-size: 40px;
       margin: -10px 0px 0px 0px;
   }
 
-  .animated-text > h2{
+  .animated-text > h2 {
       font-weight: 600;
       font-size: 21px;
       margin: -5px 0px 0px 0px;
@@ -115,7 +115,7 @@
       position: absolute;
       width: calc(100% + 5px);
       height: 110%;
-      right: 0-4px;
+      right: -10px;
       background: var(--background); /* Precisa ser da cor do fundo */
   }
 }

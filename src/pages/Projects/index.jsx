@@ -15,7 +15,7 @@ const index = () => {
     <div id='Projects' className='container'>
         <section className="projects">
             <h1 className='Title'>
-                Best Projects
+                Best Projects_
             </h1> 
 
             <div class="project reverse">

@@ -75,6 +75,16 @@
       border: 0px;
    }
    
+   #About {
+      height: 100%;
+      overflow-x: hidden;
+   }
+
+   #About .Title {
+      width: 300px;
+      padding: 110px 20px 0 25px;
+   }
+
    .about-grid {
       display: grid;
       align-items: center;
@@ -85,16 +95,6 @@
       padding: 0px 40px;
       text-align: left;
       gap: 0;
-   }
-
-   #About {
-      height: 100%;
-      overflow-x: hidden;
-   }
-
-   #About .Title {
-      width: 300px;
-      padding: 110px 20px 0 25px;
    }
    
    .about-img {
@@ -114,8 +114,8 @@
 
    .about-text {
       width: 100%;
-      padding: 15px 0px 0;
-      margin-left: 0;
+      padding: 15px 0px 0px 0px;
+      margin: 0;
    }
 
    .about-text h2 {

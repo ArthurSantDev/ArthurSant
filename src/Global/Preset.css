@@ -32,6 +32,13 @@
    }
 }
 
+.pt {
+   padding-top: 30px;
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+
 .appear{
    animation: appear 2s;
    animation-timeline: view();
@@ -81,6 +88,10 @@
       transform: translateY(-2px);
       box-shadow: var(--shadow-hover);
    }
+}
+
+.routes-button {
+   margin-top: 30px;
 }
 
 .back-to-home {
