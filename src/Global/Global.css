@@ -13,8 +13,8 @@
   --shadow-hover: 5px 5px 10px rgba(0, 0, 0, 1.1);
 
 /* ABOUT IMAGES */
-  --image: url('/public/patternDark.png');
-  --image-M: url('/public/patternDarkM.png');
+  --image: url('/public/patternDark.svg');
+  --image-M: url('/public/patternDarkM.svg');
 
 /* MAIN COLORS */
   --primary: #20adff;
@@ -81,8 +81,8 @@ text-rendering: optimizeLegibility;
     --shadow-hover: 5px 5px 10px rgba(0, 0, 0, 0.35);
 
   /* ABOUT IMAGES */
-    --image: url('/public/patternLight.png');
-    --image-M: url('/public/patternLightM.png');
+    --image: url('/public/patternLight.svg');
+    --image-M: url('/public/patternLightM.svg');
 
 
   /* MAIN COLORS */

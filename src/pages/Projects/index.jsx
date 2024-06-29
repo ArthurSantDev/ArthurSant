@@ -99,7 +99,8 @@ const index = () => {
                         <h2 class="att">HighTrip</h2>
                         <p>
                             Landing Page para um App de viagens e aventura. Com UX/UI Design responsivo e
-                            atrativo, utilizando o metodo 'Mobile-First' do Framework Tailwind
+                            atrativo, utilizando o metodo 'Mobile-First' do Framework Tailwind para foco maior 
+                            na responsividade. Next.Js e TypeScript para componentização e uso de Props.
                         </p>
                     </div>
                     <div class="stack-icons">

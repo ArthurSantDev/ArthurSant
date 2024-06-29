@@ -12,8 +12,8 @@ const index = () => {
   return (
     <div id='Projects' className='container'>
         <section className="projects">
-            <h1 className='Title'>
-                All Projects
+            <h1 className='TitleCenter'>
+                ALL PROJECTS
             </h1> 
 
             <div class="project reverse">
@@ -21,8 +21,8 @@ const index = () => {
                     <div>
                         <h2 class="att">Beats</h2>
                         <p>
-                            Landing Page para os produtos e acessórios da marca Beats, possuindo animações de scroll e
-                            design responsivo para dispositivos móveis.
+                            Landing Page para os produtos e acessórios da marca Beats, possuindo animações dinamicas de scroll, 
+                            layout responsivo para divérsos tamanhos de Smartphones e foco em UI Design.
                         </p>
                     </div>
                     <div class="stack-icons">
@@ -52,6 +52,43 @@ const index = () => {
             </div>
 
             <div class="project">
+                <div class="project-about">
+                    <div>
+                        <h2 class="att">To Do List</h2>
+                        <p>
+                            Projeto de uma To-Do list, utilizanbdo o framework 'Vite' para React como base do desenvolvimento,
+                            trazendo layout responsivo e intuitivo. Podendo pesquisar tasks feitas e não feitas, 
+                            filtrar por tarefas como 'Pessoais', 'Trabalho', 'Contas' e 'Estudos'
+                        </p>
+                    </div>
+                    <div class="stack-icons">
+                        <img src="/assets/stacks/vite-js.svg"/>
+                        <img src="/assets/stacks/react.svg"/>
+                        <img src="/assets/stacks/javascript.svg"/>
+                        <img src="/assets/stacks/css.svg"/>
+                        <img src="/assets/stacks/github.svg"/>
+                    </div>
+                    <div className='button-project-section'>
+                        <div class="button-project github-btn">
+                            <a href="https://github.com/ArthurSantDev/ToDoList" target='_blank'>
+                                <FaGithubAlt />
+                                <p>Github</p>
+                            </a>
+                        </div>
+                        <div class="button-project deploy-btn">
+                            <a href="https://todolist-arthur.vercel.app/" target='_blank'>
+                                <IoMdEye />
+                                <p>Deploy</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img src="/assets/projects/ToDoList.png"/>
+                </div>
+            </div>
+
+            <div class="project reverse">
                 <div class="project-about">
                     <div>
                         <h2 class="att">Mern.In</h2>
@@ -91,7 +128,7 @@ const index = () => {
             </div>
 
 
-            <div class="project reverse">
+            <div class="project">
                     <div class="project-about">
                     <div>
                         <h2 class="att">Nike Store</h2>
@@ -128,13 +165,14 @@ const index = () => {
             </div>
 
 
-            <div class="project">
+            <div class="project reverse">
                 <div class="project-about">
                     <div>
                         <h2 class="att">HighTrip</h2>
                         <p>
                             Landing Page para um App de viagens e aventura. Com UX/UI Design responsivo e
-                            atrativo, utilizando o metodo 'Mobile-First' do Framework Tailwind
+                            atrativo, utilizando o metodo 'Mobile-First' do Framework Tailwind para foco maior 
+                            na responsividade. Next.Js e TypeScript para componentização e uso de Props.
                         </p>
                     </div>
                     <div class="stack-icons">
@@ -163,47 +201,10 @@ const index = () => {
                     <img src="/assets/projects/HighTrip.png"/>
                 </div>
             </div>
-
-
-            <div class="project reverse">
-                <div class="project-about">
-                    <div>
-                        <h2 class="att">To Do List</h2>
-                        <p>
-                            Projeto de to-do list, utilizanbdo o framework 'Vite' como base do desenvolvimento,
-                            trazendo layout estético mas acima de tudo funcional e intuitivo.
-                        </p>
-                    </div>
-                    <div class="stack-icons">
-                        <img src="/assets/stacks/react.svg"/>
-                        <img src="/assets/stacks/vite-js.svg"/>
-                        <img src="/assets/stacks/javascript.svg"/>
-                        <img src="/assets/stacks/css.svg"/>
-                        <img src="/assets/stacks/github.svg"/>
-                    </div>
-                    <div className='button-project-section'>
-                        <div class="button-project github-btn">
-                            <a href="https://github.com/ArthurSantDev/ToDoList" target='_blank'>
-                                <FaGithubAlt />
-                                <p>Github</p>
-                            </a>
-                        </div>
-                        <div class="button-project deploy-btn">
-                            <a href="https://todolist-arthur.vercel.app/" target='_blank'>
-                                <IoMdEye />
-                                <p>Deploy</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-img">
-                    <img src="/assets/projects/ToDoList.png"/>
-                </div>
-            </div>
         </section>
 
         <Link to='/'>
-            <button className='back-to-home button'>
+            <button className='back-to-home routes-button button'>
                 <i className="home-icon"><HiHome /></i>
             </button>
         </Link>

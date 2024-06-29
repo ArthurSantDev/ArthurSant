@@ -31,6 +31,20 @@
       color: var(--primary-100);
    }
 }
+.TitleCenter {
+   text-align: center;
+   padding: 100px 0 0;
+   font-size: 40px;
+   font-weight: 700;
+   margin-bottom: -10px;
+   color: var(--primary);
+} @media (max-width: 500px) {
+   .Title {
+      padding: 110px 0 0;
+      font-size: 38px;
+      color: var(--primary-100);
+   }
+}
 
 .pt {
    padding-top: 30px;
@@ -91,7 +105,7 @@
 }
 
 .routes-button {
-   margin-top: 30px;
+   margin-top: 25px;
 }
 
 .back-to-home {

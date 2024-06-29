@@ -11,7 +11,7 @@ const index = () => {
          <div className='center'>
             <div className='about-grid'>
                <div className='about-img'>
-                  <img src="/profile.png" className='shadow' />
+                  <img src="/profile.svg" className='shadow' />
                </div>
                <div className='about-text'>
                   <h2>

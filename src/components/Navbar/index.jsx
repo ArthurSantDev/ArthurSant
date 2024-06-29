@@ -32,7 +32,13 @@ function Index() {
       <div className='Navbar'>
 
         <div className='nav-logo'>
-          <Link to='/'>{logo}</Link>
+          
+          <ScrollLink to='Home' activeClass='active' spy={true} onClick={toggleMenu}>
+            <Link to='/'>
+              {logo}
+            </Link>
+          </ScrollLink>
+          
         </div>
 
         <div className='toggleMenu' onClick={toggleMenu}>
