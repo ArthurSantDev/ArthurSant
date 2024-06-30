@@ -1,3 +1,4 @@
+import { SiScrollreveal } from "react-icons/si"; 
 // Column Stacks
 import { FaGithubAlt } from "react-icons/fa";
 import { SiPowerbi } from "react-icons/si"; 
@@ -66,8 +67,8 @@ const index = () => {
                <FaVuejs />
             </div>
             <div className='stack-box'>
-               <h1> Angular.Js </h1>
-               <SiAngular />
+               <h1> Scroll Reveal </h1>
+               <SiScrollreveal />
             </div>
             <div className='stack-box'>
                <h1> Tailwind </h1>
