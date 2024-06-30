@@ -60,7 +60,11 @@
    font-weight: 500;
 }
 
-@media (max-width: 500px) {
+.about-text o {
+   color: var(--primary-200);
+}
+
+@media (max-width: 1000px) {
    .about-img img:active {
       transform: translateY(-3px);
       box-shadow: var(--shadow-hover);

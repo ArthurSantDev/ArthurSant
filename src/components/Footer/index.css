@@ -118,7 +118,7 @@
    transition: 0.2s;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
 
    #Footer {
       display: flex;

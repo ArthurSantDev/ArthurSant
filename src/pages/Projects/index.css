@@ -160,7 +160,7 @@
    text-decoration: line-through;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
 
    .project:active {
       transform: translateY(0px);

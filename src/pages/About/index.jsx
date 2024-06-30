@@ -18,11 +18,11 @@ const index = () => {
                      Olá mundo!
                   </h2>
                   <p>
-                     Me chamo Arthur Gabriel Sant e sou um desenvolvedor Full Stack.  
-                     Entrei no mundo da programação com intuito de achar soluções para problemas como  layout, 
-                     usabilidade e fluidez, o que considero ser meu forte. Como estou me especializando para 
-                     futuramente me tornar referência na área, busco sempre aprender e me atualizar sobre as principais 
-                     técnicas e tecnologias do mercado, tendo como minhas mais fortes características a capacidade de compreender 
+                     Me chamo Arthur Gabriel Sant e sou um <o>desenvolvedor Full Stack</o>.  
+                     Entrei no mundo da programação com intuito de achar soluções para problemas como  <o>layout, 
+                     usabilidade e fluidez</o>, o que considero ser meu forte. Como estou me especializando para 
+                     futuramente me tornar referência na área, busco sempre aprender e me atualizar sobre as <o>principais 
+                     técnicas e tecnologias do mercado</o>, tendo como minhas mais fortes características a capacidade de compreender 
                      e elevar o código e funcionalidades das aplicações em que trabalho.
                   </p>
                </div>

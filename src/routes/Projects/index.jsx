@@ -11,7 +11,7 @@ const index = () => {
     <div id='Projects' className='container'>
         <section className="projects">
             <h1 className='TitleCenter'>
-                ALL PROJECTS
+                All My Projects
             </h1> 
 
             <div class="project">

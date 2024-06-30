@@ -70,7 +70,7 @@
 }
 /* /////////////////////////////////////////////////////////////////////////// */
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
 
    .social:active {
       border: 1.5px solid var(--primary);

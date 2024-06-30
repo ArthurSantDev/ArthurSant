@@ -18,10 +18,11 @@
 
 /* MAIN COLORS */
   --primary: #20adff;
-  --primary-100: #20a6ff;
+  --primary-100: #20adff;
+  --primary-200: #35aeff;
   --primary-900: #20a6ff86;
 
-  --hover-100: #7ae4ff;
+  --hover-100: #82cdff;
   --hover-900:  #005085;
 
   --border: #377dff67;
@@ -43,7 +44,7 @@
   --not-active: #20a6ffbb;
   --not-active-M: #54c0ffef;
   --active-background: #20a6ff69;
-  --active-nav-background: linear-gradient(to top, #000816, #003066);
+  --active-nav-background: linear-gradient(to top, #000816f8, #003066f8);
 
 /* PROJECTS */
   --project-border: #004fa8;
@@ -59,6 +60,7 @@
 
 /* COPY RIGHT */
 --copy: #ffffff73;
+/* --cardBackgroundDarker: linear-gradient(140deg,rgb(32,31,36) 50%,rgb(21,21,24)); */
 
 font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 line-height: 1.5;
@@ -88,6 +90,7 @@ text-rendering: optimizeLegibility;
   /* MAIN COLORS */
     --primary: #646cff; 
     --primary-100: #7e85ff;
+    --primary-200: #3f49ff;
     --primary-900: #7e85ff; 
 
     --hover-100: #000dff;
@@ -111,7 +114,7 @@ text-rendering: optimizeLegibility;
     --not-active: #646cffe1;
     --not-active-M: #646cff;
     --active-background: #e4e4e4;
-    --active-nav-background: linear-gradient(to right, #f8f8f8, #f8f8f8, #ececec);
+    --active-nav-background: linear-gradient(to right, #f8f8f8f8, #f8f8f8f8, #ecececf8);
 
   /* PROJECTS */
     --project-border: #646cff9d;

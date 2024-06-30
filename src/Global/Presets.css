@@ -2,7 +2,7 @@
    max-width: 1200px;
    min-height: calc(100vh - 40px);
    background-repeat: no-repeat;
-} @media (max-width: 500px) {
+} @media (max-width: 1000px) {
    .container {
       min-width: 100%;
       max-width: 100%;
@@ -14,7 +14,7 @@
    align-items: center;
    justify-content: center;
    width: 1150px;
-} @media (max-width: 500px){
+} @media (max-width: 1000px){
    .center {
       width: 100%; 
    }
@@ -24,7 +24,7 @@
    padding: 100px 0 0;
    font-size: 36px;
    color: var(--primary);
-} @media (max-width: 500px) {
+} @media (max-width: 1000px) {
    .Title {
       padding: 110px 0 0;
       font-size: 34px;
@@ -34,14 +34,14 @@
 .TitleCenter {
    text-align: center;
    padding: 110px 0 0;
-   font-size: 35px;
+   font-size: 36px;
    font-weight: 700;
    margin-bottom: -10px;
    color: var(--primary);
-} @media (max-width: 500px) {
-   .Title {
+} @media (max-width: 1000px) {
+   .TitleCenter {
       padding: 110px 0 0;
-      font-size: 38px;
+      font-size: 34px;
       color: var(--primary-100);
    }
 }
@@ -94,7 +94,7 @@
    margin: 0 -2px -4px -4px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 1000px) {
    .button:hover {
       color: var(--hover-100);
       border-color: var(--primary);
@@ -104,7 +104,7 @@
    }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
    .button {
       margin: 10px 0 0 0;
    }
@@ -130,7 +130,7 @@
 .back-to-home svg {
    font-size: 30px;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
    .back-to-home svg {
       font-size: 30px;
    }

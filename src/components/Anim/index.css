@@ -71,7 +71,7 @@
    }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
 
   .animated-text {
       display: flex;

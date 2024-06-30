@@ -39,7 +39,7 @@
    padding: 15px 15px 15px 15px;
    border-radius: 0px;
    border: 1.5px solid var(--border);
-   background-color: var(--back);
+   background: var(--back);
    box-shadow: var(--shadow);
    transition: 0.2s;
 }
@@ -83,7 +83,7 @@
    color: var(--four);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
    
    .skill:active {
       border: 1.5px solid var(--primary);
