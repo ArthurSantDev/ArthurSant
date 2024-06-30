@@ -14,42 +14,6 @@ const index = () => {
                 ALL PROJECTS
             </h1> 
 
-            <div class="project reverse">
-                <div class="project-about">
-                    <div>
-                        <h2 class="att">Beats</h2>
-                        <p>
-                            Landing Page para os produtos e acessórios da marca Beats, possuindo animações dinamicas de scroll, 
-                            layout responsivo para divérsos tamanhos de Smartphones e foco em UI Design.
-                        </p>
-                    </div>
-                    <div class="stack-icons">
-                        <img src="/assets/stacks/javascript.svg"/>
-                        <img src="/assets/stacks/sass.svg"/>
-                        <img src="/assets/stacks/css.svg"/>
-                        <img src="/assets/stacks/html.svg"/>
-                        <img src="/assets/stacks/github.svg"/>
-                    </div>
-                    <div className='button-project-section'>
-                        <div class="button-project github-btn">
-                            <a href="https://github.com/ArthurSantDev/Beats" target='_blank'>
-                                <FaGithubAlt />
-                                <p>Github</p>
-                            </a>
-                        </div>
-                        <div class="button-project deploy-btn">
-                            <a href="https://beats-arthur.vercel.app/" target='_blank'>
-                                <IoMdEye />
-                                <p>Deploy</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-img">
-                    <img src="/assets/projects/Beats.png"/>
-                </div>
-            </div>
-
             <div class="project">
                 <div class="project-about">
                     <div>
@@ -84,6 +48,79 @@ const index = () => {
                 </div>
                 <div class="project-img">
                     <img src="/assets/projects/ToDoList.png"/>
+                </div>
+            </div>
+
+            <div class="project reverse">
+                <div class="project-about">
+                    <div>
+                        <h2 class="att">HighTrip</h2>
+                        <p>
+                            Landing Page para um App de viagens e aventura. Com UX/UI Design responsivo e
+                            atrativo, utilizando o metodo 'Mobile-First' do Framework Tailwind para foco maior 
+                            na responsividade. Next.Js e TypeScript para componentização e uso de Props.
+                        </p>
+                    </div>
+                    <div class="stack-icons">
+                        <img src="/assets/stacks/nextjs.svg"/>
+                        <img src="/assets/stacks/react.svg"/>
+                        <img src="/assets/stacks/typescript.svg"/>
+                        <img src="/assets/stacks/tailwind.svg"/> 
+                        <img src="/assets/stacks/github.svg"/>
+                    </div>
+                    <div className='button-project-section'>
+                        <div class="button-project github-btn">
+                            <a href="https://github.com/ArthurSantDev/HighTrip" target='_blank'>
+                                <FaGithubAlt />
+                                <p>Github</p>
+                            </a>
+                        </div>
+                        <div class="button-project deploy-btn">
+                            <a href="https://hightrip.vercel.app/" target='_blank'>
+                                <IoMdEye />
+                                <p>Deploy</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img src="/assets/projects/HighTrip.png"/>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-about">
+                    <div>
+                        <h2 class="att">Beats</h2>
+                        <p>
+                            Landing Page para os produtos e acessórios da marca Beats, possuindo animações dinamicas de scroll, 
+                            layout responsivo para divérsos tamanhos de Smartphones e foco em UI Design.
+                        </p>
+                    </div>
+                    <div class="stack-icons">
+                        <img src="/assets/stacks/javascript.svg"/>
+                        <img src="/assets/stacks/sass.svg"/>
+                        <img src="/assets/stacks/css.svg"/>
+                        <img src="/assets/stacks/html.svg"/>
+                        <img src="/assets/stacks/github.svg"/>
+                    </div>
+                    <div className='button-project-section'>
+                        <div class="button-project github-btn">
+                            <a href="https://github.com/ArthurSantDev/Beats" target='_blank'>
+                                <FaGithubAlt />
+                                <p>Github</p>
+                            </a>
+                        </div>
+                        <div class="button-project deploy-btn">
+                            <a href="https://beats-arthur.vercel.app/" target='_blank'>
+                                <IoMdEye />
+                                <p>Deploy</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img src="/assets/projects/Beats.png"/>
                 </div>
             </div>
 
@@ -163,43 +200,6 @@ const index = () => {
                 </div>
             </div>
 
-
-            <div class="project reverse">
-                <div class="project-about">
-                    <div>
-                        <h2 class="att">HighTrip</h2>
-                        <p>
-                            Landing Page para um App de viagens e aventura. Com UX/UI Design responsivo e
-                            atrativo, utilizando o metodo 'Mobile-First' do Framework Tailwind para foco maior 
-                            na responsividade. Next.Js e TypeScript para componentização e uso de Props.
-                        </p>
-                    </div>
-                    <div class="stack-icons">
-                        <img src="/assets/stacks/nextjs.svg"/>
-                        <img src="/assets/stacks/react.svg"/>
-                        <img src="/assets/stacks/typescript.svg"/>
-                        <img src="/assets/stacks/tailwind.svg"/> 
-                        <img src="/assets/stacks/github.svg"/>
-                    </div>
-                    <div className='button-project-section'>
-                        <div class="button-project github-btn">
-                            <a href="https://github.com/ArthurSantDev/HighTrip" target='_blank'>
-                                <FaGithubAlt />
-                                <p>Github</p>
-                            </a>
-                        </div>
-                        <div class="button-project deploy-btn">
-                            <a href="https://hightrip.vercel.app/" target='_blank'>
-                                <IoMdEye />
-                                <p>Deploy</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-img">
-                    <img src="/assets/projects/HighTrip.png"/>
-                </div>
-            </div>
         </section>
 
         <Link to='/'>
