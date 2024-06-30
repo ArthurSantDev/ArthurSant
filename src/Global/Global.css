@@ -13,8 +13,8 @@
   --shadow-hover: 5px 5px 10px rgba(0, 0, 0, 1.1);
 
 /* ABOUT IMAGES */
-  --image: url('/patternDark.svg');
-  --image-M: url('/patternDarkM.svg');
+  --image: url('/patternDark.png');
+  --image-M: url('/patternDarkM.png');
 
 /* MAIN COLORS */
   --primary: #20adff;
@@ -81,8 +81,8 @@ text-rendering: optimizeLegibility;
     --shadow-hover: 5px 5px 10px rgba(0, 0, 0, 0.35);
 
   /* ABOUT IMAGES */
-    --image: url('/patternLight.svg');
-    --image-M: url('/patternLightM.svg');
+    --image: url('/patternLight.png');
+    --image-M: url('/patternLightM.png');
 
 
   /* MAIN COLORS */
@@ -157,7 +157,7 @@ a {
   color: var(--primary);
 }
 
-h1, h2, h3, p, a, svg, img {
+h1, h2, h3, p, a, png, img {
   user-select: none;
 }
 
