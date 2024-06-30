@@ -24,6 +24,7 @@ const index = () => {
              <img src="/assets/stacks/typescript.svg"/>
              <img src="/assets/stacks/vite-js.svg"/>
              <img src="/assets/stacks/react.svg"/>
+             <img src="/assets/stacks/react-router.svg"/>
              <img src="/assets/stacks/nextjs.svg"/>
              <img src="/assets/stacks/vue.svg"/>
              <img src="/assets/stacks/redux.svg"/>
@@ -53,6 +54,7 @@ const index = () => {
             <img src="/assets/stacks/typescript.svg"/>
             <img src="/assets/stacks/vite-js.svg"/>
             <img src="/assets/stacks/react.svg"/>
+            <img src="/assets/stacks/react-router.svg"/>
             <img src="/assets/stacks/nextjs.svg"/>
             <img src="/assets/stacks/vue.svg"/>
             <img src="/assets/stacks/redux.svg"/>
