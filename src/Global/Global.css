@@ -29,8 +29,11 @@
   --border-100: #20a6ffbb;
   --border-200: #20a6ff86;
 
-  --back: #000b1f;
+  --back: #000a1d;
   --back-hover: #001131;
+
+  --about-stack: #000e27;
+  --about-stack-hover: #000a1d;
   
   --button: #47d4ff7a;
   --button-M: #20a6ffce;
@@ -49,7 +52,7 @@
 /* PROJECTS */
   --project-border: #004fa8;
   --project-border-M: #20adff;
-  --project: linear-gradient(to top, #000818, #001b41);
+  --project: linear-gradient(to top, #000716, #00183a);
   --project-M: linear-gradient(to top, #00091a, #00244d);
 
 /* SKILL BOXES */
@@ -90,7 +93,7 @@ text-rendering: optimizeLegibility;
   /* MAIN COLORS */
     --primary: #646cff; 
     --primary-100: #7e85ff;
-    --primary-200: #3f49ff;
+    --primary-200: #454eff;
     --primary-900: #7e85ff; 
 
     --hover-100: #000dff;
@@ -99,8 +102,12 @@ text-rendering: optimizeLegibility;
     --border: #b3b7ff;
     --border-100: #7e85ff; 
     --border-200: #969bff93;
+
     --back: #f0f0f0;
     --back-hover: #f0f0f0;
+
+    --about-stack: #f0f0f0;
+    --about-stack-hover: #f0f0f0;
 
     --button: #969cff;
     --button-M: #8284ff;
@@ -113,8 +120,8 @@ text-rendering: optimizeLegibility;
     --active-M: #1b27ff;
     --not-active: #646cffe1;
     --not-active-M: #646cff;
-    --active-background: #e4e4e4;
-    --active-nav-background: linear-gradient(to right, #f8f8f8f8, #f8f8f8f8, #ecececf8);
+    --active-background: #646cff52;
+    --active-nav-background: linear-gradient(to right, #f8f8f8f8, #f8f8f8f8, #f0f0f0f8);
 
   /* PROJECTS */
     --project-border: #646cff9d;

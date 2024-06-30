@@ -54,7 +54,7 @@
    padding: 10px 16px 5px;
    margin: 10px 0 10px 0px;
    border-radius: 12px;
-   border: 1.5px solid var(--border);
+   border: 1px solid var(--border);
    background-color: var(--back);
    color: var(--color);
    box-shadow: var(--shadow);

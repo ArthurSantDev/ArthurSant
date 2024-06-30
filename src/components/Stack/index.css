@@ -2,7 +2,7 @@
    .stack-box:hover {
       color: var(--primary);
       border-color: var(--primary);
-      background-color: var(--back-hover);
+      background-color: var(--about-stack-hover);
       transform: translateY(-5px);
       box-shadow: var(--shadow-hover);
    }
@@ -58,8 +58,8 @@
    height: 100px;
    padding: 5px;
    border-radius: 12px;
-   border: 1.5px solid var(--border);
-   background-color: var(--back);
+   border: 1px solid var(--border);
+   background-color: var(--about-stack);
    box-shadow: var(--shadow);
    transition: 0.2s;
 }
