@@ -25,6 +25,7 @@ const index = () => {
                     </div>
                     <div class="stack-icons">
                         <img src="/assets/stacks/javascript.svg"/>
+                        <img src="/assets/stacks/sass.svg"/>
                         <img src="/assets/stacks/css.svg"/>
                         <img src="/assets/stacks/html.svg"/>
                         <img src="/assets/stacks/github.svg"/>
