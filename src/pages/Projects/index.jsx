@@ -70,6 +70,7 @@ const index = () => {
                         <img src="/assets/stacks/react.svg"/>
                         <img src="/assets/stacks/javascript.svg"/>
                         <img src="/assets/stacks/tailwind.svg"/>
+                        <img src="/assets/stacks/font-awesome.svg"/>
                         <img src="/assets/stacks/github.svg"/>
                     </div>
                     <div className='button-project-section'>
