@@ -81,7 +81,7 @@ const index = () => {
                             </a>
                         </div>
                         <div class="button-project deploy-btn">
-                            <a href="https://nike-arthur.vercel.app/" target='_blank'>
+                            <a href="https://nike-air.vercel.app/" target='_blank'>
                                 <IoMdEye />
                                 <p>Deploy</p>
                             </a>
