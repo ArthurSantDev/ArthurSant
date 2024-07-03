@@ -23,6 +23,7 @@
 .Title {
    padding: 100px 0 0;
    font-size: 36px;
+   font-weight: 600;
    color: var(--primary);
 } @media (max-width: 1000px) {
    .Title {
@@ -35,7 +36,7 @@
    text-align: center;
    padding: 110px 0 0;
    font-size: 36px;
-   font-weight: 700;
+   font-weight: 600;
    margin-bottom: -10px;
    color: var(--primary);
 } @media (max-width: 1000px) {

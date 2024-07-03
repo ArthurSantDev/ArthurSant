@@ -1,7 +1,7 @@
 @media (min-width: 500px) {
    .project:hover {
       border-color: var(--primary);
-      transform: translateY(-0px);
+      transform: translateY(-2px);
       box-shadow: var(--shadow-hover);
    }
 
@@ -88,8 +88,8 @@
 }
 
 .project p {
-   font-size: 16px;
-   font-weight: 600;
+   font-size: 15px;
+   font-weight: 400;
    text-align: start;
    margin: 0px 0px 0 7px; /*top left bottom right*/
 }
@@ -124,8 +124,8 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   width: 140px;
-   height: 40px;
+   width: 135px;
+   height: 38px;
    gap: 2px;
    text-align: center;
    font-size: 13px;
@@ -140,9 +140,9 @@
 }
 
 .button-project p {
-   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
    font-size: 14px;
-   margin-bottom: 1.3px;
+   font-weight: 500;
+   margin-bottom: -1.2px;
 }
 
 .deploy-btn svg {

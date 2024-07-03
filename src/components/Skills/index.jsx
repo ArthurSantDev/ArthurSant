@@ -1,3 +1,4 @@
+import { RiShareBoxLine } from "react-icons/ri"; 
 import './index.css'
 import { SiReact } from "react-icons/si"; 
 import { SiRedux } from "react-icons/si"; 
@@ -17,7 +18,7 @@ const index = () => {
                 <p>Utilizo de Frameworks para um projeto mais ágil, eficaz e de simples manutenção.</p>
               </div>
               <div className="link">
-                <a href="https://github.com/ArthurSantDev/Nike" target='_blank'>One project with..._</a>
+                <a href="https://github.com/ArthurSantDev/Nike" target='_blank'>One project with<RiShareBoxLine /></a>
               </div>
             </div>
 
@@ -29,7 +30,7 @@ const index = () => {
                 <p>Faço uso de bibliotecas como subprogramas para evoluir o desenvolvimento.</p>
               </div>
               <div className="link">
-                <a href="https://github.com/ArthurSantDev/Mern.In" target='_blank'>One project with..._</a>
+                <a href="https://github.com/ArthurSantDev/Mern.In" target='_blank'>One project with<RiShareBoxLine /></a>
               </div>
             </div>
 
@@ -41,7 +42,7 @@ const index = () => {
                 <p>Uso do estudo dos dados para formular insights que sejam relevantes e úteis.</p>
               </div>
               <div className="link">
-                <a href="https://github.com/ArthurSantDev/Crud-SQL" target='_blank'>One project with..._</a>
+                <a href="https://github.com/ArthurSantDev/Crud-SQL" target='_blank'>One project with<RiShareBoxLine /></a>
               </div>
             </div>
 
@@ -53,7 +54,7 @@ const index = () => {
                 <p>Utilizo API's, para extrair e consumir dados de difernetes tipos de sistemas.</p>
               </div>
               <div className="link">
-                <a href="https://github.com/ArthurSantDev/Mern.In" target='_blank'>One project with..._</a>
+                <a href="https://github.com/ArthurSantDev/Mern.In" target='_blank'>One project with<RiShareBoxLine /></a>
               </div>
             </div>
          </div>

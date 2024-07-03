@@ -88,7 +88,7 @@ const index = () => {
                 </div>
             </div>
 
-            <div class="project reverse">
+            <div class="project">
                 <div class="project-about">
                     <div>
                         <h2 class="att">Mern.In</h2>

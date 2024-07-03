@@ -54,7 +54,7 @@
    font-family: Share Tech Mono;
    font-size: 16px;
    margin: 4px 0 4px;
-   padding: 0 2px;
+   padding: 0 0px;
 }
 
 .skill-text {
@@ -69,8 +69,15 @@
 .skill a {
    font-size: 12px;
    text-decoration: underline;
-   padding: 5px 5px 5px 2px;
+   padding: 5px 5px 5px 0px;
    transition: 0.2s;
+}
+
+.skill a svg{
+   width: 13px;
+   height: 13px;
+   margin-bottom: -3px;
+   margin-left: 2.5px;
 }
 
 .one {
@@ -86,7 +93,7 @@
 @media (max-width: 1000px) {
    
    .skill:active {
-      border: 1.5px solid var(--primary);
+      border-color: var(--primary);
       background: var(--back-hover);
       transform: translateY(-5px);
       box-shadow: var(--shadow-hover);
@@ -121,15 +128,15 @@
    }
 
    .skill svg {
-      width: 30px;
-      height: 30px;
-      margin-top: 0px;
+      width: 32px;
+      height: 32px;
+      margin: 0px 0px 0px -1.5px;
    }
 
    .skill h2 {
       font-family: Share Tech Mono;
-      font-size: 15px;
-      margin: 3px 0 0px;
+      font-size: 16px;
+      margin: 3px 0px 1px 0px;
    }
 
    .skill-text {
@@ -138,12 +145,19 @@
    }
 
    .skill p {
-      font-size: 13px;
+      font-size: 12px;
    }
 
    .skill a {
       margin: 0px 0 -1px 0;
       text-decoration: underline;
       font-size: 11px;
+   }
+
+   .skill a svg{
+      width: 13px;
+      height: 13px;
+      margin-bottom: -2.5px;
+      margin-left: 2.5px;
    }
 }
