@@ -46,10 +46,10 @@
    content: '';
    position: absolute;
    width: calc(100% + 18px);
-   height: 108%;
+   height: 115%;
    right: -10px;
    margin: 0 0 0 -5px;
-   border-left: 3px solid var(--primary);
+   border-left: 2.5px solid var(--primary);
    background: var(--background); /* Precisa ser da cor do fundo */
    transition: 0.3s;
    animation: cursor 1s infinite, typing 25s steps(18) infinite;
@@ -114,7 +114,7 @@
       content: '';
       position: absolute;
       width: calc(100% + 5px);
-      height: 110%;
+      height: 118%;
       right: -10px;
       background: var(--background); /* Precisa ser da cor do fundo */
   }
