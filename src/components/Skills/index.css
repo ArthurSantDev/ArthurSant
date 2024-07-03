@@ -40,6 +40,7 @@
    border-radius: 0px;
    border: 1px solid var(--border);
    background: var(--back);
+   color: white;
    box-shadow: var(--shadow);
    transition: 0.2s;
 }
@@ -47,7 +48,7 @@
 .skill svg {
    width: 25px;
    height: 25px;
-   margin: 5px 0px 0px 2px;
+   margin: 10px 0px 0px 2px;
 }
 
 .skill h2 {
@@ -127,9 +128,9 @@
    }
 
    .skill svg {
-      width: 32px;
-      height: 32px;
-      margin: 0px 0px 0px -1.5px;
+      width: 30px;
+      height: 30px;
+      margin: 1px 0px 0px -1.5px;
    }
 
    .skill h2 {
@@ -154,9 +155,9 @@
    }
 
    .skill a svg{
-      width: 13px;
-      height: 13px;
-      margin-bottom: -2.5px;
-      margin-left: 2.5px;
+      width: 13.5px;
+      height: 13.5px;
+      margin-bottom: -3.5px;
+      margin-left: 2px;
    }
 }
