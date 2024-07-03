@@ -3,7 +3,7 @@
    .nav-links a::after{
       content: '';
       width: 0%;
-      height: 1px;
+      height: 2px;
       left: 0;
       bottom: 2px;
       position: absolute;
@@ -14,7 +14,7 @@
    .nav-links a.active::after{
       content: '';
       width: 0%;
-      height: 1px;
+      height: 2px;
       left: 0;
       bottom: 2px;
       position: absolute;
@@ -48,7 +48,7 @@ nav {
    align-items: center;
    justify-content: space-between;
    width: 1110px;
-   height: 45px;
+   height: 50px;
    padding: 10px 20px;
    border-radius: 15px;
    border: 1px solid var(--primary);
@@ -76,7 +76,6 @@ nav {
    font-size: 20px;
    color: var(--primary);
    transition: 0.2s;
-   margin: 0px 0px 0px 2px;
 }
 
 .nav-links {
@@ -86,7 +85,7 @@ nav {
 }
 
 .nav-links a {
-   font-size: 12px;
+   font-size: 13px;
    margin-left: 0px;
    margin-right: 0px;
    padding: 5px;
@@ -150,7 +149,7 @@ nav {
       width: 100%;
       height: 0px;
       opacity: 1;
-      gap: 0px;
+      gap: 2px;
       padding: 0px 0px 0px 0px;
       border-radius: 15px;
       border: 0px solid var(--primary);
@@ -162,7 +161,6 @@ nav {
       width: 95%;
       font-size: 14px;
       text-align: center;
-      margin: 0px;
       padding: 5px 0 5px 0;
       border-radius: 10px;
    }
@@ -171,7 +169,7 @@ nav {
       top: 75px;
       right: 0px;
       width: 100%;
-      height: 140px;
+      height: 120px;
       border: 1px solid var(--primary);
       opacity: 1;
    }

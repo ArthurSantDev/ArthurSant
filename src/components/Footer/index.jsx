@@ -13,37 +13,20 @@ const index = () => {
   return (
     <div id='Footer' className="Container">
       <div className="Footer">
-        {/* <div className="footer-shields">
-          <div className="footer-shield">
-            <BiCheckShield />
-            <h1>Segurança, do início ao fim</h1>
+        {/* <div className="footer-grid">
+          <div className="footer-grid-1">
+            <h1>Onde me encontrar</h1>
+            <a href="">Behance</a>
+            <a href="">Behance</a>
+            <a href="">Behance</a>
+            <a href="">Behance</a>
           </div>
-          <div className="footer-shield">
-            <HiOutlineCode />
-            <h1>Código eficiente e simples</h1>
-          </div>
-        </div>
-        
-        <div className="footer-links">
-          <div className="footer-link-column">
-            <h1>Formação</h1>
-            <a>Estácio de Sá</a>
-            <a>One Bit Code</a>
-            <a>Udemy</a>
-            <a>Curso em Vídeo</a>
-          </div>
-          <div className="footer-link-column">
-            <h1>Redes sociais</h1>
-            <a>Linkedin</a>
-            <a>Github</a>
-            <a>Whatsapp</a>
-            <a>E-mail</a>
-          </div>
-          <div className="footer-link-column">
-            <h1>Duvida</h1>
-            <a>Agenda</a>
-            <a>Horários</a>
-            <a>Como contatar</a>
+          <div className="footer-grid-2">
+            <h1>Por onde me encontrar</h1>
+            <a href="">Behance</a>
+            <a href="">Behance</a>
+            <a href="">Behance</a>
+            <a href="">Behance</a>
           </div>
         </div> */}
 

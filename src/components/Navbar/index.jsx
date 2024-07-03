@@ -75,14 +75,14 @@ function Index() {
             PROJECTS
           </ScrollLink>
           
-          <ScrollLink
+          {/* <ScrollLink
             to='Footer'
             activeClass='active'
             spy={true}
             onClick={toggleMenu}
           >
             CONTACTS
-          </ScrollLink>
+          </ScrollLink> */}
         </div>
       </div>
     </nav>
