@@ -1,6 +1,6 @@
 @media (min-width: 500px) {
    .skill:hover {
-   border: 1.5px solid var(--primary);
+   border-color: var(--primary);
    background-color: var(--back-hover);
    transform: translateY(-5px);
    box-shadow: var(--shadow-hover);
@@ -17,7 +17,7 @@
    flex-direction: column;
    justify-content: center;
    height: 100vh;
-   margin: 0 0 0 100px;
+   margin: 10px 0px 0px 100px;
 }
 
 .skills {
@@ -45,8 +45,8 @@
 }
 
 .skill svg {
-   width: 28px;
-   height: 28px;
+   width: 25px;
+   height: 25px;
    margin: 5px 0px 0px 2px;
 }
 
@@ -67,15 +67,14 @@
 }
 
 .skill a {
-   font-size: 12px;
-   text-decoration: underline;
+   font-size: 11px;
    padding: 5px 5px 5px 0px;
    transition: 0.2s;
 }
 
 .skill a svg{
-   width: 13px;
-   height: 13px;
+   width: 12px;
+   height: 12px;
    margin-bottom: -3px;
    margin-left: 2.5px;
 }

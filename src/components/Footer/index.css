@@ -120,6 +120,11 @@
 
 @media (max-width: 1000px) {
 
+   .footer-copy a:hover {
+      color: var(--color);
+      text-decoration: underline;
+   }
+
    #Footer {
       display: flex;
       justify-content: center;
