@@ -168,7 +168,7 @@ a {
   color: var(--primary);
 }
 
-h1, h2, h3, p, a, png, img {
+h1, h2, h3, p, a, png, img, svg {
   user-select: none;
 }
 
