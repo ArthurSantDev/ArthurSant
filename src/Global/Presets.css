@@ -113,6 +113,10 @@
 
 .routes-button {
    margin-top: 25px;
+}@media (max-width: 1000px) {
+   .routes-button {
+      margin-top: 15px;
+   }
 }
 
 .back-to-home {

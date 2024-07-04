@@ -38,9 +38,9 @@
    height: 185px;
    padding: 15px 15px 15px 15px;
    border-radius: 0px;
-   border: 1px solid var(--border);
-   background: var(--back);
-   color: white;
+   border: 1px solid var(--skills-border);
+   background: var(--skills-background);
+   color: --skills-color;
    box-shadow: var(--shadow);
    transition: 0.2s;
 }
@@ -65,7 +65,8 @@
 }
 
 .skill p {
-   font-size: 13px;
+   font-size: 13.5px;
+   font-weight: 500;
 }
 
 .skill a {
@@ -156,8 +157,8 @@
    }
 
    .skill a svg{
-      width: 13.5px;
-      height: 13.5px;
+      width: 12px;
+      height: 12px;
       margin-bottom: -3.5px;
       margin-left: 2px;
    }

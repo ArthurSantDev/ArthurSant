@@ -51,6 +51,11 @@
   --active-background: #20a6ff69;
   --active-nav-background: linear-gradient(to top, #000816f8, #003066f8);
 
+/* Skills */
+  --skills-color: #FFF;
+  --skills-background: #000a1d;
+  --skills-border: #377dff67;
+
 /* PROJECTS */
   --project-border: #004fa8;
   --project-border-M: #20adff;
@@ -124,6 +129,11 @@ text-rendering: optimizeLegibility;
     --not-active-M: #646cff;
     --active-background: #646cff52;
     --active-nav-background: linear-gradient(to right, #f8f8f8f8, #f8f8f8f8, #f0f0f0f8);
+
+  /* Skills */
+    --skills-color: var(--color);
+    --skills-background: #f0f0f0;
+    --skills-border: #b3b7ff; 
 
   /* PROJECTS */
     --project-border: #646cff9d;
