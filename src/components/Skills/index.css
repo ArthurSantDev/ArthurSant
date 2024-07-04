@@ -93,7 +93,7 @@
 @media (max-width: 1000px) {
    
    .skill:active {
-      border-color: var(--primary);
+      border: 1px solid var(--primary);
       background: var(--back-hover);
       transform: translateY(-5px);
       box-shadow: var(--shadow-hover);
