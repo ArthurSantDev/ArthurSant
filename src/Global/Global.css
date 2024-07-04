@@ -9,6 +9,7 @@
   color: #ffffffde;
   --color: #ffffffde;
   background: linear-gradient(to right, #01000f, #01000f, #01000f, #01000f, #00122e);
+  /* background: linear-gradient(to right, #0d0d0e, #0d0d0e, #0d0d0e, #0d0d0e, #252525); */
   --background: #01000f;  
 
   --shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
@@ -61,6 +62,7 @@
   --project-border-M: #20adff;
   --project: linear-gradient(to top, #000716, #00183a);
   --project-M: linear-gradient(to top, #00091a, #00244d);
+  /* #00a0e0, #1ececa */
 
 /* SKILL BOXES */
   --one: #7fd6ff;
