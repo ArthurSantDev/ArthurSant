@@ -94,8 +94,48 @@ const index = () => {
             </div>
 
 
-
             <div class="project reverse">
+                <div class="project-about">
+                    <div>
+                        <h2 class="att">Crud SQL</h2>
+                        <p>
+                        CRUD é um acrônimo para as operações fundamentais em qualquer sistema que interage 
+                        com um banco de dados: Create (Criar), Read (Ler), Update (Atualizar) e Delete (Apagar).
+                        </p>
+                    </div>
+                    <div class="stack-icons">
+                        <img src="/assets/stacks/vite-js.svg"/>
+                        <img src="/assets/stacks/react.svg"/>
+                        <img src="/assets/stacks/javascript.svg"/>
+                        <img src="/assets/stacks/mysql.svg"/>
+                        <img src="/assets/stacks/node.svg"/>
+                        <img src="/assets/stacks/nodemon.svg"/>
+                        <img src="/assets/stacks/axios.svg"/>
+                        <img src="/assets/stacks/express.svg"/>
+                    </div>
+                    <div className='button-project-section'>
+                        <div class="button-project github-btn">
+                            <a href="https://github.com/ArthurSantDev/ToDoList" target='_blank'>
+                                <FaGithubAlt />
+                                <p>Github</p>
+                            </a>
+                        </div>
+                        <div class="button-project deploy-btn cant-btn">
+                            <a href="https://todolist-arthur.vercel.app/" target='_blank'>
+                                <IoMdEye />
+                                <p>Deploy</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img src="/assets/projects/Crud.png"/>
+                </div>
+            </div>
+
+
+
+            <div class="project">
                 <div class="project-about">
                     <div>
                         <h2 class="att">HighTrip</h2>
@@ -134,7 +174,7 @@ const index = () => {
 
 
 
-            <div class="project">
+            <div class="project reverse">
                 <div class="project-about">
                     <div>
                         <h2 class="att">Mern.In</h2>
@@ -175,7 +215,7 @@ const index = () => {
 
 
 
-            <div class="project reverse">
+            <div class="project">
                 <div class="project-about">
                     <div>
                         <h2 class="att">Beats</h2>
@@ -215,7 +255,7 @@ const index = () => {
 
 
 
-            <div class="project">
+            <div class="project reverse">
                     <div class="project-about">
                     <div>
                         <h2 class="att">Nike Store</h2>
