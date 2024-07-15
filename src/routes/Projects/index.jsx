@@ -12,9 +12,9 @@ const index = () => {
         <section className="projects">
             <h1 className='TitleCenter'>
                 All My Projects
-            </h1> 
-
-            <div class="project">
+            </h1>             
+            
+            <div class="project reverse">
                 <div class="project-about">
                     <div>
                         <h2 class="att">To Do List</h2>
@@ -29,6 +29,7 @@ const index = () => {
                         <img src="/assets/stacks/react.svg"/>
                         <img src="/assets/stacks/javascript.svg"/>
                         <img src="/assets/stacks/css.svg"/>
+                        <img src="/assets/stacks/html.svg"/>
                         <img src="/assets/stacks/github.svg"/>
                     </div>
                     <div className='button-project-section'>
@@ -50,6 +51,49 @@ const index = () => {
                     <img src="/assets/projects/ToDoList.png"/>
                 </div>
             </div>
+
+
+
+            <div class="project">
+                <div class="project-about">
+                    <div>
+                        <h2 class="att">Malta University</h2>
+                        <p>
+                            Este projeto consiste em uma Landing Page para a área de cursos industriais de uma Universidade. 
+                            Todo o UI Design foi feito por 'Maham Bukhari' em seu perfil no Behance, usei seu trabalho como 
+                            inspiração para estudar como os projetos eram feitos com Design pré-estabelecido.
+                        </p>
+                    </div>
+                    <div class="stack-icons">
+                        <img src="/assets/stacks/vite-js.svg"/>
+                        <img src="/assets/stacks/react.svg"/>
+                        <img src="/assets/stacks/react-router.svg"/>
+                        <img src="/assets/stacks/javascript.svg"/>
+                        <img src="/assets/stacks/css.svg"/>
+                        <img src="/assets/stacks/html.svg"/>
+                        <img src="/assets/stacks/github.svg"/>
+                    </div>
+                    <div className='button-project-section'>
+                        <div class="button-project github-btn">
+                            <a href="https://github.com/ArthurSantDev/University-Of-Malta" target='_blank'>
+                                <FaGithubAlt />
+                                <p>Github</p>
+                            </a>
+                        </div>
+                        <div class="button-project deploy-btn">
+                            <a href="https://university-of-malta.vercel.app/" target='_blank'>
+                                <IoMdEye />
+                                <p>Deploy</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img src="/assets/projects/Malta.png"/>
+                </div>
+            </div>
+
+
 
             <div class="project reverse">
                 <div class="project-about">
@@ -87,6 +131,8 @@ const index = () => {
                     <img src="/assets/projects/HighTrip.png"/>
                 </div>
             </div>
+
+
 
             <div class="project">
                 <div class="project-about">
@@ -127,6 +173,8 @@ const index = () => {
                 </div>
             </div>
 
+
+
             <div class="project reverse">
                 <div class="project-about">
                     <div>
@@ -165,6 +213,8 @@ const index = () => {
                 </div>
             </div>
 
+
+
             <div class="project">
                     <div class="project-about">
                     <div>
@@ -201,7 +251,6 @@ const index = () => {
                     <img src="/assets/projects/Nike.png"/>
                 </div>
             </div>
-
         </section>
 
         <Link to='/'>
