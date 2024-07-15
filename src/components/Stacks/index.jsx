@@ -36,6 +36,8 @@ const index = () => {
              <img src="/assets/stacks/font-awesome.svg"/>
              <img src="/assets/stacks/python.svg"/>
              <img src="/assets/stacks/node.svg"/>
+             <img src="/assets/stacks/nodemon.svg"/>
+             <img src="/assets/stacks/axios.svg"/>
              <img src="/assets/stacks/express.svg"/>
              <img src="/assets/stacks/mongodb.svg"/>
              <img src="/assets/stacks/mysql.svg"/>
@@ -66,6 +68,8 @@ const index = () => {
             <img src="/assets/stacks/font-awesome.svg"/>
             <img src="/assets/stacks/python.svg"/>
             <img src="/assets/stacks/node.svg"/>
+            <img src="/assets/stacks/nodemon.svg"/>
+            <img src="/assets/stacks/axios.svg"/>
             <img src="/assets/stacks/express.svg"/>
             <img src="/assets/stacks/mongodb.svg"/>
             <img src="/assets/stacks/mysql.svg"/>
