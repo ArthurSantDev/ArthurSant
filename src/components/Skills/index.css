@@ -48,30 +48,29 @@
 .skill svg {
    width: 25px;
    height: 25px;
-   margin: 10px 0px 0px 2px;
+   margin: 10px 0px 0px 4px;
 }
 
 .skill h2 {
    font-family: Poppins;
    font-size: 16px;
-   font-weight: 400;
+   font-weight: 500;
    margin: 4px 0 4px;
-   padding: 0 0px;
+   padding: 0 4px;
 }
 
 .skill-text {
    height: 85px;
-   padding: 0 2px;
+   padding: 0 4px;
 }
 
 .skill p {
-   font-size: 13.5px;
-   font-weight: 500;
+   font-size: 0.84rem;
 }
 
 .skill a {
-   font-size: 11px;
-   padding: 5px 5px 5px 0px;
+   font-size: 0.72rem;
+   padding: 5px 5px 5px 4px;
    text-decoration: underline;
    transition: 0.2s;
 }

@@ -79,12 +79,12 @@
 }
 
 .footer-copy {
-   margin: 20px 0 40px;
+   margin: 15px 0 40px;
 }
 
 .footer-copy a {
    font-family: Roboto;
-   font-size: 0.65rem;
+   font-size: 0.7rem;
    color: var(--copy);
    transition: 0.2s;
 }
