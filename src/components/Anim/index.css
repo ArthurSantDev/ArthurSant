@@ -16,7 +16,7 @@
 .animated-text span {
    position: relative;
    color: var(--primary);
-   margin-left: 10px;
+   margin-left: 5px;
 }
 
 .animated-text span::before{
@@ -26,7 +26,7 @@
 
 @keyframes words {
    0%, 20% {
-       content: 'Desenvolvedor Web';
+       content: 'Software Developer';
    }
    21%, 40% {
        content: 'Full-Stack Develpoer';
