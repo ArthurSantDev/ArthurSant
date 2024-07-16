@@ -73,7 +73,8 @@
 
    .background-image {
       max-width: 100%;
-      background-image: var(--image-M);
+      background-image: none;
+      /* background-image: var(--image-M); */
       background-attachment: local;
       border-radius: 20px;
       border: 0px;
