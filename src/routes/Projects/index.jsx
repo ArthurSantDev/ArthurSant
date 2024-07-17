@@ -1,3 +1,6 @@
+import React, { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
+
 import { HiHome } from "react-icons/hi"; 
 import { Link } from 'react-router-dom'
 import './index.css'
@@ -7,6 +10,34 @@ import { IoMdEyeOff } from "react-icons/io";
 import { IoMdEye } from "react-icons/io"; 
 
 const index = () => {
+
+    useEffect(() => {
+        const revealSettings = {
+          distance: '100px',
+          duration: 1000,
+          reset: true,
+          interval: 200
+        };
+      
+        ScrollReveal().reveal('.project', {
+          ...revealSettings,
+          origin: 'left'
+        });
+      
+        if (window.innerWidth > 768) { // Ajuste o tamanho conforme necessário
+          ScrollReveal().reveal('.reverse', {
+            ...revealSettings,
+            origin: 'right'
+          });
+        } else {
+          // Para telas menores, sem animação ou com origem diferente
+          ScrollReveal().reveal('.reverse', {
+            ...revealSettings,
+            origin: 'left'
+          });
+        }
+      }, []);
+
   return (
     <div id='Projects' className='container'>
         <section className="projects">

@@ -1,3 +1,6 @@
+import React, { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
+
 import { BiPlus } from "react-icons/bi"; 
 import { Link } from 'react-router-dom'
 import './index.css'
@@ -11,6 +14,34 @@ const one = '<';
 const two = ' />';
 
 const index = () => {
+
+    useEffect(() => {
+        const revealSettings = {
+          distance: '100px',
+          duration: 1000,
+          reset: true,
+          interval: 200
+        };
+      
+        ScrollReveal().reveal('.project', {
+          ...revealSettings,
+          origin: 'left'
+        });
+      
+        if (window.innerWidth > 768) { // Ajuste o tamanho conforme necessário
+          ScrollReveal().reveal('.reverse', {
+            ...revealSettings,
+            origin: 'right'
+          });
+        } else {
+          // Para telas menores, sem animação ou com origem diferente
+          ScrollReveal().reveal('.reverse', {
+            ...revealSettings,
+            origin: 'left'
+          });
+        }
+      }, []);
+
   return (
     <div id='Projects' className='container'>
         <section className="projects">

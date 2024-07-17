@@ -1,11 +1,24 @@
 // Stack Constant
-import React from 'react'
+import React, { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
+
 import './index.css'
 
 const one = '[';
 const two = '] ;';
 
 const index = () => {
+
+   useEffect(() => {
+      ScrollReveal().reveal('.const-stacks', {
+        origin: 'bottom',
+        distance: '100px',
+        duration: 1000,
+        reset: false,
+        interval: 200
+      });
+    }, []);
+
   return (
    <div class="const-stacks">
       <div className="const-text-one">

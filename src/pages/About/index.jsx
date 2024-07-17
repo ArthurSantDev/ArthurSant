@@ -1,7 +1,45 @@
+import React, { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
+
 import StacksColumn from '../../components/Stack'
 import './index.css'
 
 const index = () => {
+
+   useEffect(() => {
+      const revealSettings = {
+        distance: '100px',
+        duration: 1000,
+        reset: false,
+        interval: 200
+      };      
+      
+      if (window.innerWidth > 768) { // Ajuste o tamanho conforme necessário
+        ScrollReveal().reveal('.about-img', {
+          ...revealSettings,
+          origin: 'left'
+        });
+      } else {
+        // Para telas menores, sem animação ou com origem diferente
+        ScrollReveal().reveal('.about-img', {
+          ...revealSettings,
+          origin: 'top'
+        });
+      };
+      if (window.innerWidth > 768) { // Ajuste o tamanho conforme necessário
+         ScrollReveal().reveal('.about-text', {
+           ...revealSettings,
+           origin: 'right'
+         });
+       } else {
+         // Para telas menores, sem animação ou com origem diferente
+         ScrollReveal().reveal('.about-text', {
+           ...revealSettings,
+           origin: 'bottom'
+         });
+       };
+    }, []);
+
   return (
    <div className='center'>
       <div id='About' className='container background-image'>
@@ -28,7 +66,9 @@ const index = () => {
                </div>
             </div>
          </div>
+
         <StacksColumn />
+        
       </div>
    </div>
   )

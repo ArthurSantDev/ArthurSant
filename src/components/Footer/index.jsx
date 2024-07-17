@@ -1,3 +1,6 @@
+import React, { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
+
 import { HiOutlineCode } from "react-icons/hi"; 
 import { BiCheckShield } from "react-icons/bi"; 
 import { FaWhatsapp } from "react-icons/fa"; 
@@ -5,11 +8,20 @@ import { AiFillGithub } from "react-icons/ai";
 import { MdEmail } from "react-icons/md"; 
 import { AiFillLinkedin } from "react-icons/ai"; 
  
-
-import React from 'react'
 import './index.css'
 
 const index = () => {
+
+  useEffect(() => {
+    ScrollReveal().reveal('.footer-bar', {
+      origin: 'top',
+      distance: '60px',
+      duration: 1000,
+      reset: false,
+      interval: 200
+    });
+  }, []);
+
   return (
     <div id='Footer' className="Container">
       <div className="Footer">

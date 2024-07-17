@@ -1,8 +1,7 @@
 @media (min-width: 500px) {
    .project:hover {
       border-color: var(--primary);
-      transform: translateY(-2px);
-      box-shadow: var(--shadow-hover);
+      box-shadow: var(--project-border-neon);
    }
 
    .button-project a:hover {

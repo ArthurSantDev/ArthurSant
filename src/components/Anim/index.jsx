@@ -1,6 +1,20 @@
+import React, { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
+
 import './index.css'
 
 const index = () => {
+
+   useEffect(() => {
+      ScrollReveal().reveal('.animated-text', {
+        origin: 'top',
+        distance: '100px',
+        duration: 1000,
+        reset: false,
+        interval: 200
+      });
+   }, []);
+
   return (
    <div>
       <div class="animated-text">
