@@ -19,10 +19,19 @@ const index = () => {
           interval: 200
         };
       
-        ScrollReveal().reveal('.project', {
-          ...revealSettings,
-          origin: 'left'
-        });
+        if (window.innerWidth > 768) { // Ajuste o tamanho conforme necessário
+            ScrollReveal().reveal('.project', {
+              ...revealSettings,
+              origin: 'left',
+            });
+          } else {
+            // Para telas menores, sem animação ou com origem diferente
+            ScrollReveal().reveal('.project', {
+              ...revealSettings,
+              origin: 'left',
+              reset: false,
+            });
+          }
       
         if (window.innerWidth > 768) { // Ajuste o tamanho conforme necessário
           ScrollReveal().reveal('.reverse', {
@@ -33,10 +42,11 @@ const index = () => {
           // Para telas menores, sem animação ou com origem diferente
           ScrollReveal().reveal('.reverse', {
             ...revealSettings,
-            origin: 'left'
+            origin: 'left',
+            reset: false,
           });
         }
-      }, []);
+    }, []);
 
   return (
     <div id='Projects' className='container'>
