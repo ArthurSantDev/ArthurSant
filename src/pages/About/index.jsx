@@ -44,7 +44,7 @@ const index = () => {
    <div className='center'>
       <div id='About' className='container background-image'>
          <h1 className='Title'>
-            About Me_
+            About Me
          </h1>
          <div className='center'>
             <div className='about-grid'>

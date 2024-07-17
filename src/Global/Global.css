@@ -17,7 +17,7 @@
 
 /* ABOUT IMAGES */
   --image: url('/patternDark.png');
-  --image-M: url('/a.png');
+  --image-M: url('/patternDarkM.png');
 
 /* MAIN COLORS */
   --primary: #20adff;

@@ -10,9 +10,6 @@ import { FaGithubAlt } from "react-icons/fa";
 import { IoMdEyeOff } from "react-icons/io"; 
 import { IoMdEye } from "react-icons/io"; 
 
-const one = '<';
-const two = ' />';
-
 const index = () => {
 
     useEffect(() => {
@@ -46,7 +43,7 @@ const index = () => {
     <div id='Projects' className='container'>
         <section className="projects">
             <h1 className='Title'>
-                Best Projects_
+                Best Projects
             </h1> 
 
             <div class="project reverse">
